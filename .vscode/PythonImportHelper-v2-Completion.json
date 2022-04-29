@@ -1,0 +1,163 @@
+[
+    {
+        "label": "pyplot",
+        "importPath": "matplotlib",
+        "description": "matplotlib",
+        "isExtraImport": true,
+        "detail": "matplotlib",
+        "documentation": {}
+    },
+    {
+        "label": "S1eixoX",
+        "kind": 5,
+        "importPath": "Gráfico - Atividade 08",
+        "description": "Gráfico - Atividade 08",
+        "peekOfCode": "S1eixoX = [0, 1, 2, 3, 4, 5]\n# eixoY = tarefas a serem feitas - tarefas feitas realmente:\nS1eixoY = [4.25, 4.25-(1/3), 4.25-(2/3), 4.25-1, 4.25-1.25, 4.25-3.5]\n# Y = tarefas a serem feitas - tarefas a serem feitas de acordo com  a previsão (linearmente):\nX = [0, 1, 2, 3, 4, 5]\nY = [5*0.85, 4*0.85, 3*0.85, 2*0.85, 1*0.85, 0]\nplt.plot(X, Y)\nplt.plot(S1eixoX, S1eixoY)\nplt.show()\n# Sprint 2:",
+        "detail": "Gráfico - Atividade 08",
+        "documentation": {}
+    },
+    {
+        "label": "S1eixoY",
+        "kind": 5,
+        "importPath": "Gráfico - Atividade 08",
+        "description": "Gráfico - Atividade 08",
+        "peekOfCode": "S1eixoY = [4.25, 4.25-(1/3), 4.25-(2/3), 4.25-1, 4.25-1.25, 4.25-3.5]\n# Y = tarefas a serem feitas - tarefas a serem feitas de acordo com  a previsão (linearmente):\nX = [0, 1, 2, 3, 4, 5]\nY = [5*0.85, 4*0.85, 3*0.85, 2*0.85, 1*0.85, 0]\nplt.plot(X, Y)\nplt.plot(S1eixoX, S1eixoY)\nplt.show()\n# Sprint 2:\nS2eixoX = [0, 1, 2, 3]\n# eixoY = tarefas a serem feitas - tarefas feitas realmente:",
+        "detail": "Gráfico - Atividade 08",
+        "documentation": {}
+    },
+    {
+        "label": "X",
+        "kind": 5,
+        "importPath": "Gráfico - Atividade 08",
+        "description": "Gráfico - Atividade 08",
+        "peekOfCode": "X = [0, 1, 2, 3, 4, 5]\nY = [5*0.85, 4*0.85, 3*0.85, 2*0.85, 1*0.85, 0]\nplt.plot(X, Y)\nplt.plot(S1eixoX, S1eixoY)\nplt.show()\n# Sprint 2:\nS2eixoX = [0, 1, 2, 3]\n# eixoY = tarefas a serem feitas - tarefas feitas realmente:\nS2eixoY = [4.75, 4.75-0.5, 4.75-1, 4.75-2.25]\n# Y = tarefas a serem feitas - tarefas a serem feitas de acordo com  a previsão (linearmente):",
+        "detail": "Gráfico - Atividade 08",
+        "documentation": {}
+    },
+    {
+        "label": "Y",
+        "kind": 5,
+        "importPath": "Gráfico - Atividade 08",
+        "description": "Gráfico - Atividade 08",
+        "peekOfCode": "Y = [5*0.85, 4*0.85, 3*0.85, 2*0.85, 1*0.85, 0]\nplt.plot(X, Y)\nplt.plot(S1eixoX, S1eixoY)\nplt.show()\n# Sprint 2:\nS2eixoX = [0, 1, 2, 3]\n# eixoY = tarefas a serem feitas - tarefas feitas realmente:\nS2eixoY = [4.75, 4.75-0.5, 4.75-1, 4.75-2.25]\n# Y = tarefas a serem feitas - tarefas a serem feitas de acordo com  a previsão (linearmente):\nX = [0, 1, 2, 3, 4, 5]",
+        "detail": "Gráfico - Atividade 08",
+        "documentation": {}
+    },
+    {
+        "label": "S2eixoX",
+        "kind": 5,
+        "importPath": "Gráfico - Atividade 08",
+        "description": "Gráfico - Atividade 08",
+        "peekOfCode": "S2eixoX = [0, 1, 2, 3]\n# eixoY = tarefas a serem feitas - tarefas feitas realmente:\nS2eixoY = [4.75, 4.75-0.5, 4.75-1, 4.75-2.25]\n# Y = tarefas a serem feitas - tarefas a serem feitas de acordo com  a previsão (linearmente):\nX = [0, 1, 2, 3, 4, 5]\nY = [5*0.95, 4*0.95, 3*0.95, 2*0.95, 1*0.95, 0]\nplt.plot(X, Y)\nplt.plot(S2eixoX, S2eixoY)\nplt.show()\n# Gráfico SPI e CPI:",
+        "detail": "Gráfico - Atividade 08",
+        "documentation": {}
+    },
+    {
+        "label": "S2eixoY",
+        "kind": 5,
+        "importPath": "Gráfico - Atividade 08",
+        "description": "Gráfico - Atividade 08",
+        "peekOfCode": "S2eixoY = [4.75, 4.75-0.5, 4.75-1, 4.75-2.25]\n# Y = tarefas a serem feitas - tarefas a serem feitas de acordo com  a previsão (linearmente):\nX = [0, 1, 2, 3, 4, 5]\nY = [5*0.95, 4*0.95, 3*0.95, 2*0.95, 1*0.95, 0]\nplt.plot(X, Y)\nplt.plot(S2eixoX, S2eixoY)\nplt.show()\n# Gráfico SPI e CPI:\nBAC = 500600\n#PV = BAC * P%C",
+        "detail": "Gráfico - Atividade 08",
+        "documentation": {}
+    },
+    {
+        "label": "X",
+        "kind": 5,
+        "importPath": "Gráfico - Atividade 08",
+        "description": "Gráfico - Atividade 08",
+        "peekOfCode": "X = [0, 1, 2, 3, 4, 5]\nY = [5*0.95, 4*0.95, 3*0.95, 2*0.95, 1*0.95, 0]\nplt.plot(X, Y)\nplt.plot(S2eixoX, S2eixoY)\nplt.show()\n# Gráfico SPI e CPI:\nBAC = 500600\n#PV = BAC * P%C\n#EV = BAC * A%C\n#SPI = EV/PV = EV/(BAC*P%C)",
+        "detail": "Gráfico - Atividade 08",
+        "documentation": {}
+    },
+    {
+        "label": "Y",
+        "kind": 5,
+        "importPath": "Gráfico - Atividade 08",
+        "description": "Gráfico - Atividade 08",
+        "peekOfCode": "Y = [5*0.95, 4*0.95, 3*0.95, 2*0.95, 1*0.95, 0]\nplt.plot(X, Y)\nplt.plot(S2eixoX, S2eixoY)\nplt.show()\n# Gráfico SPI e CPI:\nBAC = 500600\n#PV = BAC * P%C\n#EV = BAC * A%C\n#SPI = EV/PV = EV/(BAC*P%C)\n#CPI = EV/AC = EV/(BAC*A%C)",
+        "detail": "Gráfico - Atividade 08",
+        "documentation": {}
+    },
+    {
+        "label": "BAC",
+        "kind": 5,
+        "importPath": "Gráfico - Atividade 08",
+        "description": "Gráfico - Atividade 08",
+        "peekOfCode": "BAC = 500600\n#PV = BAC * P%C\n#EV = BAC * A%C\n#SPI = EV/PV = EV/(BAC*P%C)\n#CPI = EV/AC = EV/(BAC*A%C)\nSPIeixoX = [0, 1, 2, 3, 4, 5, 6, 7, 8]\nSPIeixoY = [0, 1, 2, 3, 4, 5, 6, 7, 8]\nCPIeixoX = [0, 1, 2, 3, 4, 5, 6, 7, 8]\nCPIeixoY = [0, 1, 2, 3, 4, 5, 6, 7, 8]",
+        "detail": "Gráfico - Atividade 08",
+        "documentation": {}
+    },
+    {
+        "label": "#PV",
+        "kind": 5,
+        "importPath": "Gráfico - Atividade 08",
+        "description": "Gráfico - Atividade 08",
+        "peekOfCode": "#PV = BAC * P%C\n#EV = BAC * A%C\n#SPI = EV/PV = EV/(BAC*P%C)\n#CPI = EV/AC = EV/(BAC*A%C)\nSPIeixoX = [0, 1, 2, 3, 4, 5, 6, 7, 8]\nSPIeixoY = [0, 1, 2, 3, 4, 5, 6, 7, 8]\nCPIeixoX = [0, 1, 2, 3, 4, 5, 6, 7, 8]\nCPIeixoY = [0, 1, 2, 3, 4, 5, 6, 7, 8]",
+        "detail": "Gráfico - Atividade 08",
+        "documentation": {}
+    },
+    {
+        "label": "#EV",
+        "kind": 5,
+        "importPath": "Gráfico - Atividade 08",
+        "description": "Gráfico - Atividade 08",
+        "peekOfCode": "#EV = BAC * A%C\n#SPI = EV/PV = EV/(BAC*P%C)\n#CPI = EV/AC = EV/(BAC*A%C)\nSPIeixoX = [0, 1, 2, 3, 4, 5, 6, 7, 8]\nSPIeixoY = [0, 1, 2, 3, 4, 5, 6, 7, 8]\nCPIeixoX = [0, 1, 2, 3, 4, 5, 6, 7, 8]\nCPIeixoY = [0, 1, 2, 3, 4, 5, 6, 7, 8]",
+        "detail": "Gráfico - Atividade 08",
+        "documentation": {}
+    },
+    {
+        "label": "#SPI",
+        "kind": 5,
+        "importPath": "Gráfico - Atividade 08",
+        "description": "Gráfico - Atividade 08",
+        "peekOfCode": "#SPI = EV/PV = EV/(BAC*P%C)\n#CPI = EV/AC = EV/(BAC*A%C)\nSPIeixoX = [0, 1, 2, 3, 4, 5, 6, 7, 8]\nSPIeixoY = [0, 1, 2, 3, 4, 5, 6, 7, 8]\nCPIeixoX = [0, 1, 2, 3, 4, 5, 6, 7, 8]\nCPIeixoY = [0, 1, 2, 3, 4, 5, 6, 7, 8]",
+        "detail": "Gráfico - Atividade 08",
+        "documentation": {}
+    },
+    {
+        "label": "#CPI",
+        "kind": 5,
+        "importPath": "Gráfico - Atividade 08",
+        "description": "Gráfico - Atividade 08",
+        "peekOfCode": "#CPI = EV/AC = EV/(BAC*A%C)\nSPIeixoX = [0, 1, 2, 3, 4, 5, 6, 7, 8]\nSPIeixoY = [0, 1, 2, 3, 4, 5, 6, 7, 8]\nCPIeixoX = [0, 1, 2, 3, 4, 5, 6, 7, 8]\nCPIeixoY = [0, 1, 2, 3, 4, 5, 6, 7, 8]",
+        "detail": "Gráfico - Atividade 08",
+        "documentation": {}
+    },
+    {
+        "label": "SPIeixoX",
+        "kind": 5,
+        "importPath": "Gráfico - Atividade 08",
+        "description": "Gráfico - Atividade 08",
+        "peekOfCode": "SPIeixoX = [0, 1, 2, 3, 4, 5, 6, 7, 8]\nSPIeixoY = [0, 1, 2, 3, 4, 5, 6, 7, 8]\nCPIeixoX = [0, 1, 2, 3, 4, 5, 6, 7, 8]\nCPIeixoY = [0, 1, 2, 3, 4, 5, 6, 7, 8]",
+        "detail": "Gráfico - Atividade 08",
+        "documentation": {}
+    },
+    {
+        "label": "SPIeixoY",
+        "kind": 5,
+        "importPath": "Gráfico - Atividade 08",
+        "description": "Gráfico - Atividade 08",
+        "peekOfCode": "SPIeixoY = [0, 1, 2, 3, 4, 5, 6, 7, 8]\nCPIeixoX = [0, 1, 2, 3, 4, 5, 6, 7, 8]\nCPIeixoY = [0, 1, 2, 3, 4, 5, 6, 7, 8]",
+        "detail": "Gráfico - Atividade 08",
+        "documentation": {}
+    },
+    {
+        "label": "CPIeixoX",
+        "kind": 5,
+        "importPath": "Gráfico - Atividade 08",
+        "description": "Gráfico - Atividade 08",
+        "peekOfCode": "CPIeixoX = [0, 1, 2, 3, 4, 5, 6, 7, 8]\nCPIeixoY = [0, 1, 2, 3, 4, 5, 6, 7, 8]",
+        "detail": "Gráfico - Atividade 08",
+        "documentation": {}
+    },
+    {
+        "label": "CPIeixoY",
+        "kind": 5,
+        "importPath": "Gráfico - Atividade 08",
+        "description": "Gráfico - Atividade 08",
+        "peekOfCode": "CPIeixoY = [0, 1, 2, 3, 4, 5, 6, 7, 8]",
+        "detail": "Gráfico - Atividade 08",
+        "documentation": {}
+    }
+]
