@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-05-02T12:16:38.485Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.41 Safari/537.36 Edg/101.0.1210.32" etag="Tddo9mvpY8H44ITBxVVs" version="17.4.5" type="github">
+<mxfile host="app.diagrams.net" modified="2022-05-02T12:17:39.443Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.41 Safari/537.36 Edg/101.0.1210.32" etag="NE67aRmHBM2GV3k_X8rX" version="17.4.5" type="github">
   <diagram id="hs9ZBIwVIqsKbuHO4t1r" name="Page-1">
     <mxGraphModel dx="1038" dy="571" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -64,6 +64,9 @@
         <mxCell id="kmL2_dZYYPdruxAL3Dzr-18" value="Rotas" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="60" y="430" width="120" height="60" as="geometry" />
         </mxCell>
+        <mxCell id="kmL2_dZYYPdruxAL3Dzr-40" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.25;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;endArrow=none;endFill=0;" edge="1" parent="1" source="kmL2_dZYYPdruxAL3Dzr-19" target="kmL2_dZYYPdruxAL3Dzr-28">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="kmL2_dZYYPdruxAL3Dzr-19" value="Rotas" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="610" y="200" width="120" height="60" as="geometry" />
         </mxCell>
@@ -71,28 +74,28 @@
           <mxGeometry x="60" y="270" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="kmL2_dZYYPdruxAL3Dzr-24" value="ID de produto" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="630" y="400" width="120" height="60" as="geometry" />
+          <mxGeometry x="640" y="510" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="kmL2_dZYYPdruxAL3Dzr-26" value="Foto de confirmação" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="630" y="480" width="120" height="60" as="geometry" />
+          <mxGeometry x="640" y="590" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="kmL2_dZYYPdruxAL3Dzr-35" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.25;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;endArrow=none;endFill=0;" edge="1" parent="1" source="kmL2_dZYYPdruxAL3Dzr-28" target="kmL2_dZYYPdruxAL3Dzr-32">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="kmL2_dZYYPdruxAL3Dzr-28" value="Otimização" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="240" y="540" width="120" height="60" as="geometry" />
+          <mxGeometry x="660" y="270" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="kmL2_dZYYPdruxAL3Dzr-30" value="Pagamento" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="630" y="560" width="120" height="60" as="geometry" />
+          <mxGeometry x="640" y="670" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="kmL2_dZYYPdruxAL3Dzr-37" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.25;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;endArrow=none;endFill=0;" edge="1" parent="1" source="kmL2_dZYYPdruxAL3Dzr-32" target="kmL2_dZYYPdruxAL3Dzr-34">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="kmL2_dZYYPdruxAL3Dzr-32" value="Mapa de linhas e pontos de ônibus" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="320" y="620" width="120" height="60" as="geometry" />
+          <mxGeometry x="710" y="340" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="kmL2_dZYYPdruxAL3Dzr-34" value="Algoritmo de &lt;br&gt;Diijkstra" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="370" y="690" width="120" height="60" as="geometry" />
+          <mxGeometry x="760" y="410" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
