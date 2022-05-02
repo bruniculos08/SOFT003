@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-05-02T12:11:54.085Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.41 Safari/537.36 Edg/101.0.1210.32" etag="OM9_vqXW0bNKn_DYcG6J" version="17.4.5" type="github">
+<mxfile host="app.diagrams.net" modified="2022-05-02T12:14:12.758Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.41 Safari/537.36 Edg/101.0.1210.32" etag="4zpDyrzCXK_f8925Dyrb" version="17.4.5" type="github">
   <diagram id="hs9ZBIwVIqsKbuHO4t1r" name="Page-1">
     <mxGraphModel dx="1038" dy="571" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -79,11 +79,23 @@
         <mxCell id="kmL2_dZYYPdruxAL3Dzr-26" value="Foto de confirmação" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="420" y="360" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="kmL2_dZYYPdruxAL3Dzr-28" value="Entrega" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="630" y="120" width="120" height="60" as="geometry" />
+        <mxCell id="kmL2_dZYYPdruxAL3Dzr-35" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.25;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;endArrow=none;endFill=0;" edge="1" parent="1" source="kmL2_dZYYPdruxAL3Dzr-28" target="kmL2_dZYYPdruxAL3Dzr-32">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="kmL2_dZYYPdruxAL3Dzr-28" value="Otimização" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="560" y="120" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="kmL2_dZYYPdruxAL3Dzr-30" value="Pagamento" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="420" y="440" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="kmL2_dZYYPdruxAL3Dzr-37" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.25;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;endArrow=none;endFill=0;" edge="1" parent="1" source="kmL2_dZYYPdruxAL3Dzr-32" target="kmL2_dZYYPdruxAL3Dzr-34">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="kmL2_dZYYPdruxAL3Dzr-32" value="Mapa de linhas e pontos de ônibus" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="640" y="200" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="kmL2_dZYYPdruxAL3Dzr-34" value="Algoritmo de &lt;br&gt;Diijkstra" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="690" y="270" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
