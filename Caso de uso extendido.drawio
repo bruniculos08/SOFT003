@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-06-03T12:50:19.429Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.5005.63 Safari/537.36 Edg/102.0.1245.30" etag="s0B2QWdfaCrJqnfLqgRT" version="18.2.1" type="github">
+<mxfile host="app.diagrams.net" modified="2022-06-03T12:51:37.667Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.5005.63 Safari/537.36 Edg/102.0.1245.30" etag="O_KFw0GLbjAxYMUz-dQo" version="18.2.1" type="github">
   <diagram id="kgpKYQtTHZ0yAKxKKP6v" name="Page-1">
-    <mxGraphModel dx="472" dy="260" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" background="#ffffff" math="0" shadow="0">
+    <mxGraphModel dx="442" dy="243" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" background="#ffffff" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -173,16 +173,26 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="-SCbaDf-sCpi-YkZ0BnW-28" value="criarEntregador()" style="verticalAlign=bottom;endArrow=block;shadow=0;strokeWidth=1;" edge="1" parent="1" target="-SCbaDf-sCpi-YkZ0BnW-4">
-          <mxGeometry x="0.0145" y="10" relative="1" as="geometry">
+        <mxCell id="-SCbaDf-sCpi-YkZ0BnW-28" value="criarEntregador(cpf)" style="verticalAlign=bottom;endArrow=block;shadow=0;strokeWidth=1;" edge="1" parent="1" target="-SCbaDf-sCpi-YkZ0BnW-31">
+          <mxGeometry x="-0.0952" relative="1" as="geometry">
             <mxPoint x="255" y="670.0000000000008" as="sourcePoint" />
             <mxPoint x="390" y="760" as="targetPoint" />
             <Array as="points">
               <mxPoint x="390" y="670" />
-              <mxPoint x="390" y="745" />
+              <mxPoint x="380" y="670" />
+              <mxPoint x="410" y="670" />
             </Array>
             <mxPoint as="offset" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="-SCbaDf-sCpi-YkZ0BnW-29" value=":Entregador" style="shape=umlLifeline;perimeter=lifelinePerimeter;container=1;collapsible=0;recursiveResize=0;rounded=0;shadow=0;strokeWidth=1;" vertex="1" parent="1">
+          <mxGeometry x="400" y="530" width="100" height="400" as="geometry" />
+        </mxCell>
+        <mxCell id="-SCbaDf-sCpi-YkZ0BnW-30" value="" style="points=[];perimeter=orthogonalPerimeter;rounded=0;shadow=0;strokeWidth=1;" vertex="1" parent="-SCbaDf-sCpi-YkZ0BnW-29">
+          <mxGeometry x="45" y="80" width="10" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="-SCbaDf-sCpi-YkZ0BnW-31" value="" style="points=[];perimeter=orthogonalPerimeter;rounded=0;shadow=0;strokeWidth=1;" vertex="1" parent="-SCbaDf-sCpi-YkZ0BnW-29">
+          <mxGeometry x="45" y="130" width="10" height="150" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
