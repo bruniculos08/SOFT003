@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-06-03T12:31:39.920Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.5005.63 Safari/537.36 Edg/102.0.1245.30" etag="SuumyYjNz0MTxSwTwd7B" version="18.2.1" type="github">
+<mxfile host="app.diagrams.net" modified="2022-06-03T12:32:34.570Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.5005.63 Safari/537.36 Edg/102.0.1245.30" etag="4oh7thm53R0wrD0a1ElS" version="18.2.1" type="github">
   <diagram id="kgpKYQtTHZ0yAKxKKP6v" name="Page-1">
     <mxGraphModel dx="716" dy="394" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" background="#ffffff" math="0" shadow="0">
       <root>
@@ -173,10 +173,15 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="-SCbaDf-sCpi-YkZ0BnW-28" value="alterarStatus(localização)" style="verticalAlign=bottom;endArrow=block;entryX=0;entryY=0;shadow=0;strokeWidth=1;" edge="1" parent="1">
-          <mxGeometry relative="1" as="geometry">
+        <mxCell id="-SCbaDf-sCpi-YkZ0BnW-28" value="criarEntregador()" style="verticalAlign=bottom;endArrow=block;shadow=0;strokeWidth=1;" edge="1" parent="1" target="-SCbaDf-sCpi-YkZ0BnW-4">
+          <mxGeometry x="-0.0435" y="30" relative="1" as="geometry">
             <mxPoint x="255" y="670.0000000000008" as="sourcePoint" />
-            <mxPoint x="425.0000000000001" y="670.0000000000008" as="targetPoint" />
+            <mxPoint x="390" y="760" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="390" y="670" />
+              <mxPoint x="390" y="745" />
+            </Array>
+            <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
       </root>
