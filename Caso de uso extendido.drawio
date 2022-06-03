@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-06-03T12:23:29.042Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.5005.63 Safari/537.36 Edg/102.0.1245.30" etag="-n5O2HAQIiR88bB3XnDJ" version="18.2.1" type="github">
+<mxfile host="app.diagrams.net" modified="2022-06-03T12:24:11.083Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.5005.63 Safari/537.36 Edg/102.0.1245.30" etag="HGVtf-MeV_dTPuOyE7we" version="18.2.1" type="github">
   <diagram id="kgpKYQtTHZ0yAKxKKP6v" name="Page-1">
-    <mxGraphModel dx="1038" dy="571" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" background="#ffffff" math="0" shadow="0">
+    <mxGraphModel dx="593" dy="326" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" background="#ffffff" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -134,7 +134,7 @@
         <mxCell id="-SCbaDf-sCpi-YkZ0BnW-4" value="" style="points=[];perimeter=orthogonalPerimeter;rounded=0;shadow=0;strokeWidth=1;" vertex="1" parent="-SCbaDf-sCpi-YkZ0BnW-3">
           <mxGeometry x="45" y="80" width="10" height="270" as="geometry" />
         </mxCell>
-        <mxCell id="-SCbaDf-sCpi-YkZ0BnW-9" value="solicita(localização, destino)" style="verticalAlign=bottom;endArrow=block;entryX=0;entryY=0;shadow=0;strokeWidth=1;" edge="1" parent="1" source="-SCbaDf-sCpi-YkZ0BnW-2" target="-SCbaDf-sCpi-YkZ0BnW-4">
+        <mxCell id="-SCbaDf-sCpi-YkZ0BnW-9" value="alterarStatus(localização)" style="verticalAlign=bottom;endArrow=block;entryX=0;entryY=0;shadow=0;strokeWidth=1;" edge="1" parent="1" source="-SCbaDf-sCpi-YkZ0BnW-2" target="-SCbaDf-sCpi-YkZ0BnW-4">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="175" y="610" as="sourcePoint" />
           </mxGeometry>
