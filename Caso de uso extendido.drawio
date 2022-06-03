@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-06-03T12:25:46.544Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.5005.63 Safari/537.36 Edg/102.0.1245.30" etag="cPj1zsQ8IEgiOQ2v_8WD" version="18.2.1" type="github">
+<mxfile host="app.diagrams.net" modified="2022-06-03T12:26:02.603Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.5005.63 Safari/537.36 Edg/102.0.1245.30" etag="_V5yl_wkow1B_svoHWtX" version="18.2.1" type="github">
   <diagram id="kgpKYQtTHZ0yAKxKKP6v" name="Page-1">
     <mxGraphModel dx="593" dy="326" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" background="#ffffff" math="0" shadow="0">
       <root>
@@ -164,12 +164,13 @@
             <mxPoint x="32" y="-11" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="-SCbaDf-sCpi-YkZ0BnW-23" value="solicitaRota()" style="verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;shadow=0;strokeWidth=1;" edge="1" parent="1">
+        <mxCell id="-SCbaDf-sCpi-YkZ0BnW-23" value="rota" style="verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;shadow=0;strokeWidth=1;" edge="1" parent="1">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="440" y="729.7100000000003" as="targetPoint" />
-            <mxPoint x="270" y="729.71" as="sourcePoint" />
+            <mxPoint x="246" y="690.0000000000002" as="targetPoint" />
+            <mxPoint x="76" y="690" as="sourcePoint" />
             <Array as="points">
-              <mxPoint x="300" y="729.71" />
+              <mxPoint x="106" y="690" />
+              <mxPoint x="166" y="690" />
             </Array>
             <mxPoint as="offset" />
           </mxGeometry>
