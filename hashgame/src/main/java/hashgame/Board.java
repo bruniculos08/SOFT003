@@ -108,4 +108,8 @@ public class Board {
     public int[][] getBoard(){
         return Board;
     }
+
+    public void setGameBoard(int newBoard[][]){
+        Board = newBoard;
+    }
 }

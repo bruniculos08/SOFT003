@@ -52,7 +52,7 @@ public class TicTacToe {
     public int choosePlayer(){
         int option=0;
         
-        do{
+        /*do{
             System.out.println("1. Human");
             System.out.println("2. Computer\n");
             System.out.print("Option: ");
@@ -62,7 +62,8 @@ public class TicTacToe {
                 System.out.println("Invalid Option! Try again");
         }while(option != 1 && option != 2);
         
-        return option;
+        return option;*/
+        return 1;
     }
     
     public int Play(){
@@ -87,7 +88,7 @@ public class TicTacToe {
 
             return 0;
         } else{
-            if(won() == -1){
+            if(won() == 1){
                 System.out.println("Player 1 won!");
                 return 1;
             }
@@ -95,12 +96,12 @@ public class TicTacToe {
                 System.out.println("Player 2 won!");
                 return 1;
             }
-            else{
+            else if(won() == 2){
                 System.out.println("Tie!");
                 return 2;
             }
         }
-            
+        return 0;
     }
     
     public int who(){
@@ -134,6 +135,10 @@ public class TicTacToe {
 
     public Board getBoard() {
         return board;
+    }
+
+    public void setBoard(int newBoard[][]) {
+        board.setGameBoard(newBoard);
     }
 
     public int getResult() {
