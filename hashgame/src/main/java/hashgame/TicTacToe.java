@@ -80,6 +80,7 @@ public class TicTacToe {
             
             if(board.fullBoard()){
                 System.out.println("Full Board. Draw!");
+                System.out.println("a Tie!");
                 result = 2;
                 return false;
             }

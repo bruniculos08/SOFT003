@@ -14,6 +14,8 @@ class AppTest {
     @Test
     void testApp() {
         TicTacToe game = new TicTacToe();
+        // (1) a classe TicTacToe foi alterada para que o resultado da partida fosse armazenando em um atributo...
+        // ... result que pode ser retornado pelo novo método adicionado, getResult().
         assertEquals(2, game.getResult());
     }
 }
