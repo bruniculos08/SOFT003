@@ -68,7 +68,7 @@ public class TicTacToe {
     
     public int Play(){
         board.showBoard();
-        if(won() == 0 && board.fullBoard()){
+        if(won() == 0)){
             System.out.println("----------------------");
             System.out.println("\nTurn "+turn);
             System.out.println("It's turn of Player " + who() );
@@ -87,7 +87,8 @@ public class TicTacToe {
             turn++;
 
             return 0;
-        } else{
+        } 
+        else{
             if(won() == 1){
                 System.out.println("Player 1 won!");
                 return 1;
@@ -96,12 +97,11 @@ public class TicTacToe {
                 System.out.println("Player 2 won!");
                 return 1;
             }
-            else if(won() == 2){
+            else{
                 System.out.println("Tie!");
                 return 2;
             }
         }
-        return 0;
     }
     
     public int who(){
