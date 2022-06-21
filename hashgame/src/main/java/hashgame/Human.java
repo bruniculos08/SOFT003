@@ -37,14 +37,14 @@ public class Human extends Player{
                 if( attempt[0] > 3 ||attempt[0] < 1)
                     System.out.println("Invalid line. It's 1, 2 or 3");
                 
-            }while( attempt[0] > 3 ||attempt[0] < 1);
+            }while( attempt[0] > 3 || attempt[0] < 1);
             
             do{
                 System.out.print("Column: ");
                 attempt[1] = input.nextInt();
                 
                 if(attempt[1] > 3 ||attempt[1] < 1)
-                    System.out.println("Invalid column. É 1, 2 or 3");
+                    System.out.println("Invalid column. It's 1, 2 or 3");
                 
             }while(attempt[1] > 3 ||attempt[1] < 1);
             

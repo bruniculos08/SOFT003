@@ -24,7 +24,7 @@ public class TicTacToe {
     
     public TicTacToe(){
         board = new Board();
-        startPlayers();
+        //startPlayers();
         result = 0;
         do{
             result = Play();
@@ -68,20 +68,20 @@ public class TicTacToe {
     
     public int Play(){
         board.showBoard();
-        if(won() == 0)){
+        if(won() == 0){
             System.out.println("----------------------");
             System.out.println("\nTurn "+turn);
             System.out.println("It's turn of Player " + who() );
             
-            if(who()==1)
-                player1.play(board);
-            else
-                player2.play(board);
+            //if(who()==1)
+                //player1.play(board);
+            //else
+                //player2.play(board);
             
             
             if(board.fullBoard()){
                 System.out.println("Full Board. Draw!");
-                return 1;
+                return 2;
             }
             who++;
             turn++;
@@ -95,13 +95,10 @@ public class TicTacToe {
             }
             else if(won() == -1){
                 System.out.println("Player 2 won!");
-                return 1;
-            }
-            else{
-                System.out.println("Tie!");
-                return 2;
+                return -1;
             }
         }
+        return 0;
     }
     
     public int who(){
