@@ -179,73 +179,73 @@
     {
         "label": "Cliente",
         "kind": 6,
-        "importPath": "Projeto - Fase 03.Código-Fonte.Model.Cliente",
-        "description": "Projeto - Fase 03.Código-Fonte.Model.Cliente",
+        "importPath": "Projeto - Fase 03.Código-Fonte.Projeto em Python.Cliente",
+        "description": "Projeto - Fase 03.Código-Fonte.Projeto em Python.Cliente",
         "peekOfCode": "class Cliente(Usuário):\n    def __init__(self):\n        self.formaDePagamento = None\n    def criarEntrega(self, String):\n        pass",
-        "detail": "Projeto - Fase 03.Código-Fonte.Model.Cliente",
+        "detail": "Projeto - Fase 03.Código-Fonte.Projeto em Python.Cliente",
         "documentation": {}
     },
     {
         "label": "Control1",
         "kind": 6,
-        "importPath": "Projeto - Fase 03.Código-Fonte.Model.Control1",
-        "description": "Projeto - Fase 03.Código-Fonte.Model.Control1",
+        "importPath": "Projeto - Fase 03.Código-Fonte.Projeto em Python.Control1",
+        "description": "Projeto - Fase 03.Código-Fonte.Projeto em Python.Control1",
         "peekOfCode": "class Control1:\n    pass",
-        "detail": "Projeto - Fase 03.Código-Fonte.Model.Control1",
+        "detail": "Projeto - Fase 03.Código-Fonte.Projeto em Python.Control1",
         "documentation": {}
     },
     {
         "label": "Entrega",
         "kind": 6,
-        "importPath": "Projeto - Fase 03.Código-Fonte.Model.Entrega",
-        "description": "Projeto - Fase 03.Código-Fonte.Model.Entrega",
+        "importPath": "Projeto - Fase 03.Código-Fonte.Projeto em Python.Entrega",
+        "description": "Projeto - Fase 03.Código-Fonte.Projeto em Python.Entrega",
         "peekOfCode": "class Entrega:\n    def __init__(self):\n        self.statusFinal = None\n        self.valor = None\n        self.destino = None\n        self.foto = None\n    def criarProduto(self, ):\n        pass",
-        "detail": "Projeto - Fase 03.Código-Fonte.Model.Entrega",
+        "detail": "Projeto - Fase 03.Código-Fonte.Projeto em Python.Entrega",
         "documentation": {}
     },
     {
         "label": "Entregador",
         "kind": 6,
-        "importPath": "Projeto - Fase 03.Código-Fonte.Model.Entregador",
-        "description": "Projeto - Fase 03.Código-Fonte.Model.Entregador",
+        "importPath": "Projeto - Fase 03.Código-Fonte.Projeto em Python.Entregador",
+        "description": "Projeto - Fase 03.Código-Fonte.Projeto em Python.Entregador",
         "peekOfCode": "class Entregador(Usuário):\n    def __init__(self):\n        self.disponibilidade = None\n    def finalizarEntrega(self, Entrega):\n        pass",
-        "detail": "Projeto - Fase 03.Código-Fonte.Model.Entregador",
+        "detail": "Projeto - Fase 03.Código-Fonte.Projeto em Python.Entregador",
         "documentation": {}
     },
     {
         "label": "Produto",
         "kind": 6,
-        "importPath": "Projeto - Fase 03.Código-Fonte.Model.Produto",
-        "description": "Projeto - Fase 03.Código-Fonte.Model.Produto",
+        "importPath": "Projeto - Fase 03.Código-Fonte.Projeto em Python.Produto",
+        "description": "Projeto - Fase 03.Código-Fonte.Projeto em Python.Produto",
         "peekOfCode": "class Produto:\n    def __init__(self):\n        self.ID = None",
-        "detail": "Projeto - Fase 03.Código-Fonte.Model.Produto",
+        "detail": "Projeto - Fase 03.Código-Fonte.Projeto em Python.Produto",
         "documentation": {}
     },
     {
         "label": "Rotas",
         "kind": 6,
-        "importPath": "Projeto - Fase 03.Código-Fonte.Model.Rotas",
-        "description": "Projeto - Fase 03.Código-Fonte.Model.Rotas",
+        "importPath": "Projeto - Fase 03.Código-Fonte.Projeto em Python.Rotas",
+        "description": "Projeto - Fase 03.Código-Fonte.Projeto em Python.Rotas",
         "peekOfCode": "class Rotas:\n    def __init__(self):\n        self.nome = None\n        self.vetorDePontos = None",
-        "detail": "Projeto - Fase 03.Código-Fonte.Model.Rotas",
+        "detail": "Projeto - Fase 03.Código-Fonte.Projeto em Python.Rotas",
         "documentation": {}
     },
     {
         "label": "Slot",
         "kind": 6,
-        "importPath": "Projeto - Fase 03.Código-Fonte.Model.Slot",
-        "description": "Projeto - Fase 03.Código-Fonte.Model.Slot",
+        "importPath": "Projeto - Fase 03.Código-Fonte.Projeto em Python.Slot",
+        "description": "Projeto - Fase 03.Código-Fonte.Projeto em Python.Slot",
         "peekOfCode": "class Slot:\n    def __init__(self):\n        self.link = None\n        self.disponibilidade = None\n        self.IDatual = None\n        self.trancado = None\n    def mudarTrancado(self, ):\n        pass",
-        "detail": "Projeto - Fase 03.Código-Fonte.Model.Slot",
+        "detail": "Projeto - Fase 03.Código-Fonte.Projeto em Python.Slot",
         "documentation": {}
     },
     {
         "label": "Usuário",
         "kind": 6,
-        "importPath": "Projeto - Fase 03.Código-Fonte.Model.Usuário",
-        "description": "Projeto - Fase 03.Código-Fonte.Model.Usuário",
+        "importPath": "Projeto - Fase 03.Código-Fonte.Projeto em Python.Usuário",
+        "description": "Projeto - Fase 03.Código-Fonte.Projeto em Python.Usuário",
         "peekOfCode": "class Usuário:\n    def __init__(self):\n        self.nome = None\n        self.CPF = None\n        self.email = None\n    def deletarUsuario(self, ):\n        pass\n    def criarRota(self, String):\n        pass",
-        "detail": "Projeto - Fase 03.Código-Fonte.Model.Usuário",
+        "detail": "Projeto - Fase 03.Código-Fonte.Projeto em Python.Usuário",
         "documentation": {}
     }
 ]
