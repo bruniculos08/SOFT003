@@ -48,6 +48,14 @@
         "documentation": {}
     },
     {
+        "label": "Rotas",
+        "importPath": "Rotas",
+        "description": "Rotas",
+        "isExtraImport": true,
+        "detail": "Rotas",
+        "documentation": {}
+    },
+    {
         "label": "S1eixoX",
         "kind": 5,
         "importPath": "Códigos.Gráfico - Atividade 08",
@@ -205,7 +213,7 @@
         "kind": 6,
         "importPath": "Projeto - Fase 03.Código-Fonte.Projeto em Python.Cliente",
         "description": "Projeto - Fase 03.Código-Fonte.Projeto em Python.Cliente",
-        "peekOfCode": "class Cliente(Usuário):\n    def __init__(self):\n        self.formaDePagamento = None\n    def criarEntrega(self, String):\n        newEntrega = Entrega(False, 0 , 0, 0)",
+        "peekOfCode": "class Cliente(Usuário):\n    def __init__(self, formaDePagamento):\n        self.formaDePagamento = formaDePagamento\n    def criarEntrega(self, cordX, cordY):\n        newEntrega = Entrega(False, 0 , (cordX, cordY), 0)",
         "detail": "Projeto - Fase 03.Código-Fonte.Projeto em Python.Cliente",
         "documentation": {}
     },
@@ -232,7 +240,7 @@
         "kind": 6,
         "importPath": "Projeto - Fase 03.Código-Fonte.Projeto em Python.Entregador",
         "description": "Projeto - Fase 03.Código-Fonte.Projeto em Python.Entregador",
-        "peekOfCode": "class Entregador(Usuário):\n    def __init__(self, Entrega):\n        self.disponibilidade = True\n        self.entrega = Entrega\n    def finalizarEntrega(self):\n        self.entrega.statusFinal = True\n        return self.entrega.statusFinal",
+        "peekOfCode": "class Entregador(Usuário):\n    def __init__(self, Entrega):\n        self.disponibilidade = True\n        self.entrega = Entrega\n    def finalizarEntrega(self):\n        self.entrega.statusFinal = True",
         "detail": "Projeto - Fase 03.Código-Fonte.Projeto em Python.Entregador",
         "documentation": {}
     },
@@ -250,7 +258,7 @@
         "kind": 6,
         "importPath": "Projeto - Fase 03.Código-Fonte.Projeto em Python.Rotas",
         "description": "Projeto - Fase 03.Código-Fonte.Projeto em Python.Rotas",
-        "peekOfCode": "class Rotas:\n    def __init__(self):\n        self.nome = None\n        self.vetorDePontos = None",
+        "peekOfCode": "class Rotas:\n    def __init__(self, listaDeCord):\n        self.nome = None\n        self.vetorDePontos = listaDeCord",
         "detail": "Projeto - Fase 03.Código-Fonte.Projeto em Python.Rotas",
         "documentation": {}
     },
@@ -259,7 +267,7 @@
         "kind": 6,
         "importPath": "Projeto - Fase 03.Código-Fonte.Projeto em Python.Slot",
         "description": "Projeto - Fase 03.Código-Fonte.Projeto em Python.Slot",
-        "peekOfCode": "class Slot:\n    def __init__(self):\n        self.link = None\n        self.disponibilidade = None\n        self.IDatual = None\n        self.trancado = False\n    def mudarTrancado(self):\n        if(self.trancado == False): self.trancado = True\n        else: self.trancado = False",
+        "peekOfCode": "class Slot:\n    def __init__(self):\n        self.link = None\n        self.disponibilidade = True\n        self.IDatual = None\n        self.trancado = False\n    def mudarTrancado(self):\n        if(self.trancado == False): self.trancado = True\n        else: self.trancado = False\n    def mudarID(self, ID):",
         "detail": "Projeto - Fase 03.Código-Fonte.Projeto em Python.Slot",
         "documentation": {}
     },
@@ -268,7 +276,7 @@
         "kind": 6,
         "importPath": "Projeto - Fase 03.Código-Fonte.Projeto em Python.Usuário",
         "description": "Projeto - Fase 03.Código-Fonte.Projeto em Python.Usuário",
-        "peekOfCode": "class Usuário:\n    def __init__(self):\n        self.nome = None\n        self.CPF = None\n        self.email = None\n    def deletarUsuario(self):\n        del (self)\n    def criarRota(self, String):\n        pass",
+        "peekOfCode": "class Usuário:\n    def __init__(self):\n        self.nome = None\n        self.CPF = None\n        self.email = None\n        self.listaDeRotas = []\n    def deletarUsuario(self):\n        del (self)\n    def criarRota(self):\n        newRota = Rotas()",
         "detail": "Projeto - Fase 03.Código-Fonte.Projeto em Python.Usuário",
         "documentation": {}
     }
