@@ -2,4 +2,12 @@
 #-*- coding: utf-8 -*-
 
 class Slot:
-    pass
+    def __init__(self):
+        self.link = None
+        self.disponibilidade = None
+        self.IDatual = None
+        self.trancado = None
+
+    def mudarTrancado(self, ):
+        pass
+

@@ -2,4 +2,6 @@
 #-*- coding: utf-8 -*-
 
 class Produto:
-    pass
+    def __init__(self):
+        self.ID = None
+

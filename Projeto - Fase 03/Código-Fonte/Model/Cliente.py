@@ -4,4 +4,9 @@
 from Usuário import Usuário
 
 class Cliente(Usuário):
-    pass
+    def __init__(self):
+        self.formaDePagamento = None
+
+    def criarEntrega(self, String):
+        pass
+

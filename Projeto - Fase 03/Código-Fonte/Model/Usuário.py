@@ -10,3 +10,6 @@ class Usuário:
     def deletarUsuario(self, ):
         pass
 
+    def criarRota(self, String):
+        pass
+

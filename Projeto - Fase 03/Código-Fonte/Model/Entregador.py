@@ -4,4 +4,9 @@
 from Usuário import Usuário
 
 class Entregador(Usuário):
-    pass
+    def __init__(self):
+        self.disponibilidade = None
+
+    def finalizarEntrega(self, Entrega):
+        pass
+
