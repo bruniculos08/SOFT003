@@ -7,8 +7,8 @@ class Usuário:
         self.CPF = None
         self.email = None
 
-    def deletarUsuario(self, ):
-        pass
+    def deletarUsuario(self):
+        del (self)
 
     def criarRota(self, String):
         pass

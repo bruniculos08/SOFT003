@@ -8,5 +8,5 @@ class Cliente(Usuário):
         self.formaDePagamento = None
 
     def criarEntrega(self, String):
-        pass
+        newEntrega = Entrega(False, 0 , 0, 0)
 

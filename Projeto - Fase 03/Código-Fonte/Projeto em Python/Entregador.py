@@ -4,9 +4,10 @@
 from Usuário import Usuário
 
 class Entregador(Usuário):
-    def __init__(self):
-        self.disponibilidade = None
+    def __init__(self, Entrega):
+        self.disponibilidade = True
+        self.entrega= entrega
 
-    def finalizarEntrega(self, Entrega):
+    def finalizarEntrega(self):
         pass
 
