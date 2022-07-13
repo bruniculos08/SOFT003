@@ -244,7 +244,7 @@
         "kind": 6,
         "importPath": "Projeto - Fase 03.Código-Fonte.Model.Usuário",
         "description": "Projeto - Fase 03.Código-Fonte.Model.Usuário",
-        "peekOfCode": "class Usuário:\n    def __init__(self):\n        self.nome = None\n        self.CPF = None\n        self.email = None",
+        "peekOfCode": "class Usuário:\n    def __init__(self):\n        self.nome = None\n        self.CPF = None\n        self.email = None\n    def deletarUsuario(self, ):\n        pass",
         "detail": "Projeto - Fase 03.Código-Fonte.Model.Usuário",
         "documentation": {}
     }
