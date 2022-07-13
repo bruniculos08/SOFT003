@@ -2,7 +2,6 @@
 #-*- coding: utf-8 -*-
 
 class Rotas:
-    def __init__(self):
+    def __init__(self, listaDeCord):
         self.nome = None
-        self.vetorDePontos = None
-
+        self.vetorDePontos = listaDeCord

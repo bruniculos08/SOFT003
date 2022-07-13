@@ -4,7 +4,7 @@
 class Slot:
     def __init__(self):
         self.link = None
-        self.disponibilidade = None
+        self.disponibilidade = True
         self.IDatual = None
         self.trancado = False
 
@@ -12,3 +12,5 @@ class Slot:
         if(self.trancado == False): self.trancado = True
         else: self.trancado = False
 
+    def mudarID(self, ID):
+        self.IDatual = ID

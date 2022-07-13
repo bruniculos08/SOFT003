@@ -16,6 +16,14 @@
         "documentation": {}
     },
     {
+        "label": "Entrega",
+        "importPath": "Entrega",
+        "description": "Entrega",
+        "isExtraImport": true,
+        "detail": "Entrega",
+        "documentation": {}
+    },
+    {
         "label": "*",
         "importPath": "random",
         "description": "random",
@@ -32,11 +40,19 @@
         "documentation": {}
     },
     {
+        "label": "Rotas",
+        "importPath": "Rotas",
+        "description": "Rotas",
+        "isExtraImport": true,
+        "detail": "Rotas",
+        "documentation": {}
+    },
+    {
         "label": "Cliente",
         "kind": 6,
         "importPath": "Cliente",
         "description": "Cliente",
-        "peekOfCode": "class Cliente(Usuário):\n    def __init__(self):\n        self.formaDePagamento = None\n    def criarEntrega(self, String):\n        newEntrega = Entrega(False, 0 , 0, 0)",
+        "peekOfCode": "class Cliente(Usuário):\n    def __init__(self, formaDePagamento):\n        self.formaDePagamento = formaDePagamento\n    def criarEntrega(self, cordX, cordY):\n        newEntrega = Entrega(False, 0 , (cordX, cordY), 0)",
         "detail": "Cliente",
         "documentation": {}
     },
@@ -63,7 +79,7 @@
         "kind": 6,
         "importPath": "Entregador",
         "description": "Entregador",
-        "peekOfCode": "class Entregador(Usuário):\n    def __init__(self, Entrega):\n        self.disponibilidade = True\n        self.entrega= entrega\n    def finalizarEntrega(self):\n        pass",
+        "peekOfCode": "class Entregador(Usuário):\n    def __init__(self, Entrega):\n        self.disponibilidade = True\n        self.entrega = Entrega\n    def finalizarEntrega(self):\n        self.entrega.statusFinal = True",
         "detail": "Entregador",
         "documentation": {}
     },
@@ -81,7 +97,7 @@
         "kind": 6,
         "importPath": "Rotas",
         "description": "Rotas",
-        "peekOfCode": "class Rotas:\n    def __init__(self):\n        self.nome = None\n        self.vetorDePontos = None",
+        "peekOfCode": "class Rotas:\n    def __init__(self, listaDeCord):\n        self.nome = None\n        self.vetorDePontos = listaDeCord",
         "detail": "Rotas",
         "documentation": {}
     },
@@ -90,7 +106,7 @@
         "kind": 6,
         "importPath": "Slot",
         "description": "Slot",
-        "peekOfCode": "class Slot:\n    def __init__(self):\n        self.link = None\n        self.disponibilidade = None\n        self.IDatual = None\n        self.trancado = False\n    def mudarTrancado(self):\n        if(self.trancado == False): self.trancado = True\n        else: self.trancado = False",
+        "peekOfCode": "class Slot:\n    def __init__(self):\n        self.link = None\n        self.disponibilidade = True\n        self.IDatual = None\n        self.trancado = False\n    def mudarTrancado(self):\n        if(self.trancado == False): self.trancado = True\n        else: self.trancado = False\n    def mudarID(self, ID):",
         "detail": "Slot",
         "documentation": {}
     },
@@ -99,7 +115,7 @@
         "kind": 6,
         "importPath": "Usuário",
         "description": "Usuário",
-        "peekOfCode": "class Usuário:\n    def __init__(self):\n        self.nome = None\n        self.CPF = None\n        self.email = None\n    def deletarUsuario(self):\n        del (self)\n    def criarRota(self, String):\n        pass",
+        "peekOfCode": "class Usuário:\n    def __init__(self):\n        self.nome = None\n        self.CPF = None\n        self.email = None\n        self.listaDeRotas = []\n    def deletarUsuario(self):\n        del (self)\n    def criarRota(self):\n        newRota = Rotas()",
         "detail": "Usuário",
         "documentation": {}
     }

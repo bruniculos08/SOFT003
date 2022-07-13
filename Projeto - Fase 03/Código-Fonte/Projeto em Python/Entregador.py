@@ -6,8 +6,7 @@ from Usuário import Usuário
 class Entregador(Usuário):
     def __init__(self, Entrega):
         self.disponibilidade = True
-        self.entrega= entrega
+        self.entrega = Entrega
 
     def finalizarEntrega(self):
-        pass
-
+        self.entrega.statusFinal = True
