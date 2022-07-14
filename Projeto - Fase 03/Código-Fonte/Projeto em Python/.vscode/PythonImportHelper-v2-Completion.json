@@ -137,7 +137,7 @@
         "kind": 6,
         "importPath": "Entregador",
         "description": "Entregador",
-        "peekOfCode": "class Entregador(Usuário):\n    def __init__(self, nome, CPF, email, localizacao, appMain):\n        self.nome = nome\n        self.CPF = CPF\n        self.email = email\n        self.disponibilidade = True\n        self.localizacao = localizacao\n        self.entrega = None\n        self.appMain = appMain\n    def finalizar(self):",
+        "peekOfCode": "class Entregador(Usuário):\n    def __init__(self, nome, CPF, email, localizacao, appMain):\n        self.nome = nome\n        self.CPF = CPF\n        self.email = email\n        self.disponibilidade = True\n        self.localizacao = localizacao\n        self.entrega = None\n        self.appMain = appMain\n    def aceitarEntrega(self, ListaDeEntregas, number):",
         "detail": "Entregador",
         "documentation": {}
     },

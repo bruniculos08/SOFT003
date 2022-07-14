@@ -77,13 +77,16 @@ class App:
     def finalizarEntrega(self, foto, ID):
         for item in self.listaDeEntregas:
             if(item.produtoDaEntrega.ID == ID):
-                self.produtoEntregue(item)
-                item.foto = foto
-                return
+                if(self.produtoEntregue(item) == True):
+                    item.foto = foto
+                    return
+                else:
+                    print("Entrega sem foto.")
             else:
                 print("A entrega não existe.")
 
     def produtoEntregue(self, entrega):
         if(entrega.foto != None):
             entrega.statusFinal = True
-            return
+            return True
+        else: return False
