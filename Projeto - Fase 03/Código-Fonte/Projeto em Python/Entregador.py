@@ -16,6 +16,7 @@ class Entregador(Usuário):
 
     def finalizar(self):
         self.appMain.finalizarEntrega(self.entrega.foto, self.entrega.produtoDaEntrega.ID)
+        self.disponibilidade = True
 
     def tirarFoto(self, foto):
         self.entrega.foto = foto

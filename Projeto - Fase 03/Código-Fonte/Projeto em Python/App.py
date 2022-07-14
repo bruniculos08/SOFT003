@@ -19,6 +19,7 @@ class App:
     def addEntregador(self, nome, cpf, email, localizacao):
         newEntregador = Entregador(nome, cpf, email, localizacao, self)
         self.listaDeEntregadores.append(newEntregador)
+        return newEntregador
 
     def addCliente(self, nome, cpf, email, formaDePagamento):
         newCliente = Cliente(nome, cpf, email, formaDePagamento, self)
@@ -39,10 +40,10 @@ class App:
 
     def alterarStatus(self, oldUsuario, argumentoExtra):
         if(type(oldUsuario) == Cliente):
-            self.addEntregador(oldUsuario.nome, oldUsuario.cpf, oldUsuario.email, argumentoExtra)
+            self.addEntregador(oldUsuario.nome, oldUsuario.CPF, oldUsuario.email, argumentoExtra)
             self.removeCliente(oldUsuario)
         elif(type(oldUsuario) == Entregador):
-            self.addCliente(oldUsuario.nome, oldUsuario.cpf, oldUsuario.email, argumentoExtra)
+            self.addCliente(oldUsuario.nome, oldUsuario.CPF, oldUsuario.email, argumentoExtra)
             self.removeEntregador(oldUsuario)
         else:
             print("Erro.")
@@ -59,6 +60,7 @@ class App:
                 item.entrega = Entrega(False, valor, origem, destino, None, data, hora, self.slotLivre(link))
                 self.listaDeEntregas.append(item.entrega)
                 print("Entrega solicitada e aceita por " + item.nome)
+            else: print("Não há entregadores")
 
     def linkUse(self, link, ID):
         for item in self.listaDeSlots:
@@ -74,9 +76,9 @@ class App:
     
     def finalizarEntrega(self, foto, ID):
         for item in self.listaDeEntregas:
-            if(item.entrega.produtoDaEntrega.ID == ID):
+            if(item.produtoDaEntrega.ID == ID):
                 self.produtoEntregue(item)
-                item.entrega.foto = foto
+                item.foto = foto
                 return
             else:
                 print("A entrega não existe.")

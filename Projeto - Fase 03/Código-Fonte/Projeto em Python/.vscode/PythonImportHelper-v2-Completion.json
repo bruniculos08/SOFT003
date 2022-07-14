@@ -146,7 +146,16 @@
         "kind": 5,
         "importPath": "Main",
         "description": "Main",
-        "peekOfCode": "teste = App()\nteste.addSlot(\"www.teste.com\", None)\nteste.addEntregador(\"Bruno\", 1111, \"teste@gmail.com\", (1, 1))\nSonic = teste.addCliente(\"Sonic\", 1234, \"rapido@gmail.com\", \"Pix\")\nSonic.solicitarEntrega(1, (1,0), (0, 1), 1, 1, \"wwww.teste.com\")\nteste.linkUse(\"www.teste.com\", None)",
+        "peekOfCode": "teste = App()\nteste.addSlot(\"www.teste.com\", None)\nBruno = teste.addEntregador(\"Bruno\", 1111, \"teste@gmail.com\", (1, 1))\nSonic = teste.addCliente(\"Sonic\", 1234, \"rapido@gmail.com\", \"Pix\")\nSonic.solicitarEntrega(1, (1,0), (0, 1), 1, 1, \"wwww.teste.com\")\nteste.linkUse(\"www.teste.com\", None)\nBruno.tirarFoto(\"JPEG\")\nBruno.finalizar()\nSonic.solicitarEntrega(1, (1,0), (0, 1), 1, 1, \"wwww.teste.com\")",
+        "detail": "Main",
+        "documentation": {}
+    },
+    {
+        "label": "Bruno",
+        "kind": 5,
+        "importPath": "Main",
+        "description": "Main",
+        "peekOfCode": "Bruno = teste.addEntregador(\"Bruno\", 1111, \"teste@gmail.com\", (1, 1))\nSonic = teste.addCliente(\"Sonic\", 1234, \"rapido@gmail.com\", \"Pix\")\nSonic.solicitarEntrega(1, (1,0), (0, 1), 1, 1, \"wwww.teste.com\")\nteste.linkUse(\"www.teste.com\", None)\nBruno.tirarFoto(\"JPEG\")\nBruno.finalizar()\nSonic.solicitarEntrega(1, (1,0), (0, 1), 1, 1, \"wwww.teste.com\")",
         "detail": "Main",
         "documentation": {}
     },
@@ -155,7 +164,7 @@
         "kind": 5,
         "importPath": "Main",
         "description": "Main",
-        "peekOfCode": "Sonic = teste.addCliente(\"Sonic\", 1234, \"rapido@gmail.com\", \"Pix\")\nSonic.solicitarEntrega(1, (1,0), (0, 1), 1, 1, \"wwww.teste.com\")\nteste.linkUse(\"www.teste.com\", None)",
+        "peekOfCode": "Sonic = teste.addCliente(\"Sonic\", 1234, \"rapido@gmail.com\", \"Pix\")\nSonic.solicitarEntrega(1, (1,0), (0, 1), 1, 1, \"wwww.teste.com\")\nteste.linkUse(\"www.teste.com\", None)\nBruno.tirarFoto(\"JPEG\")\nBruno.finalizar()\nSonic.solicitarEntrega(1, (1,0), (0, 1), 1, 1, \"wwww.teste.com\")",
         "detail": "Main",
         "documentation": {}
     },
