@@ -2,12 +2,19 @@
 #-*- coding: utf-8 -*-
 
 from Usuário import Usuário
+from Entregador import Entregador
 from Entrega import Entrega
 
 class Cliente(Usuário):
-    def __init__(self, formaDePagamento):
+    
+    def __init__(self, nome, CPF, email, formaDePagamento, appMain):
         self.formaDePagamento = formaDePagamento
+        self.nome = nome
+        self.CPF = CPF
+        self.email = email
+        self.formaDePagamento = formaDePagamento
+        self.appMain = appMain
 
-    def criarEntrega(self, cordX, cordY):
-        newEntrega = Entrega(False, 0 , (cordX, cordY), 0)
-
+    def solicitarEntrega(self, valor, origem, destino, data, hora, link):
+        self.appMain.solicita(valor, origem, destino, data, hora, link)
+        return

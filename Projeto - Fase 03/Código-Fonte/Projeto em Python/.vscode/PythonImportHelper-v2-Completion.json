@@ -1,18 +1,26 @@
 [
     {
-        "label": "Usuário",
-        "importPath": "Usuário",
-        "description": "Usuário",
+        "label": "Entregador",
+        "importPath": "Entregador",
+        "description": "Entregador",
         "isExtraImport": true,
-        "detail": "Usuário",
+        "detail": "Entregador",
         "documentation": {}
     },
     {
-        "label": "Usuário",
-        "importPath": "Usuário",
-        "description": "Usuário",
+        "label": "Entregador",
+        "importPath": "Entregador",
+        "description": "Entregador",
         "isExtraImport": true,
-        "detail": "Usuário",
+        "detail": "Entregador",
+        "documentation": {}
+    },
+    {
+        "label": "Cliente",
+        "importPath": "Cliente",
+        "description": "Cliente",
+        "isExtraImport": true,
+        "detail": "Cliente",
         "documentation": {}
     },
     {
@@ -24,10 +32,52 @@
         "documentation": {}
     },
     {
-        "label": "*",
+        "label": "Entrega",
+        "importPath": "Entrega",
+        "description": "Entrega",
+        "isExtraImport": true,
+        "detail": "Entrega",
+        "documentation": {}
+    },
+    {
+        "label": "Slot",
+        "importPath": "Slot",
+        "description": "Slot",
+        "isExtraImport": true,
+        "detail": "Slot",
+        "documentation": {}
+    },
+    {
+        "label": "time",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "time",
+        "description": "time",
+        "detail": "time",
+        "documentation": {}
+    },
+    {
+        "label": "Usuário",
+        "importPath": "Usuário",
+        "description": "Usuário",
+        "isExtraImport": true,
+        "detail": "Usuário",
+        "documentation": {}
+    },
+    {
+        "label": "Usuário",
+        "importPath": "Usuário",
+        "description": "Usuário",
+        "isExtraImport": true,
+        "detail": "Usuário",
+        "documentation": {}
+    },
+    {
+        "label": "random",
+        "kind": 6,
+        "isExtraImport": true,
         "importPath": "random",
         "description": "random",
-        "isExtraImport": true,
         "detail": "random",
         "documentation": {}
     },
@@ -40,6 +90,14 @@
         "documentation": {}
     },
     {
+        "label": "App",
+        "importPath": "App",
+        "description": "App",
+        "isExtraImport": true,
+        "detail": "App",
+        "documentation": {}
+    },
+    {
         "label": "Rotas",
         "importPath": "Rotas",
         "description": "Rotas",
@@ -48,21 +106,21 @@
         "documentation": {}
     },
     {
+        "label": "App",
+        "kind": 6,
+        "importPath": "App",
+        "description": "App",
+        "peekOfCode": "class App:\n    def __init__(self):\n        self.listaDeEntregadores = []\n        self.listaDeClientes = []\n        self.listaDeUsuarios = []\n        self.listaDeEntregas = []\n        self.listaDeSlots = []\n    def addEntregador(self, nome, cpf, email, localizacao):\n        newEntregador = Entregador(nome, cpf, email, localizacao, self)\n        self.listaDeEntregadores.append(newEntregador)",
+        "detail": "App",
+        "documentation": {}
+    },
+    {
         "label": "Cliente",
         "kind": 6,
         "importPath": "Cliente",
         "description": "Cliente",
-        "peekOfCode": "class Cliente(Usuário):\n    def __init__(self, formaDePagamento):\n        self.formaDePagamento = formaDePagamento\n    def criarEntrega(self, cordX, cordY):\n        newEntrega = Entrega(False, 0 , (cordX, cordY), 0)",
+        "peekOfCode": "class Cliente(Usuário):\n    def __init__(self, nome, CPF, email, formaDePagamento, appMain):\n        self.formaDePagamento = formaDePagamento\n        self.nome = nome\n        self.CPF = CPF\n        self.email = email\n        self.formaDePagamento = formaDePagamento\n        self.appMain = appMain\n    def solicitarEntrega(self, valor, origem, destino, data, hora, link):\n        self.appMain.solicita(valor, origem, destino, data, hora, link)",
         "detail": "Cliente",
-        "documentation": {}
-    },
-    {
-        "label": "Control1",
-        "kind": 6,
-        "importPath": "Control1",
-        "description": "Control1",
-        "peekOfCode": "class Control1:\n    pass",
-        "detail": "Control1",
         "documentation": {}
     },
     {
@@ -70,7 +128,7 @@
         "kind": 6,
         "importPath": "Entrega",
         "description": "Entrega",
-        "peekOfCode": "class Entrega:\n    def __init__(self, statusFinal, valor, destino, foto):\n        self.statusFinal = statusFinal\n        self.valor = valor\n        self.destino = destino\n        self.foto = foto\n        self.produtoDaEntrega = self.criarProduto()\n    def criarProduto(self):\n        newProduct = Produto(random.randint(0, 1000000000000))\n        # (1) Para testar essa classe:",
+        "peekOfCode": "class Entrega:\n    def __init__(self, statusFinal, valor, origem, destino, foto, data, hora, slot):\n        self.statusFinal = statusFinal\n        self.valor = valor\n        self.origem = origem\n        self.destino = destino\n        self.foto = foto\n        self.data = data\n        self.hora = hora\n        self.slot = slot",
         "detail": "Entrega",
         "documentation": {}
     },
@@ -79,8 +137,26 @@
         "kind": 6,
         "importPath": "Entregador",
         "description": "Entregador",
-        "peekOfCode": "class Entregador(Usuário):\n    def __init__(self, Entrega):\n        self.disponibilidade = True\n        self.entrega = Entrega\n    def finalizarEntrega(self):\n        self.entrega.statusFinal = True",
+        "peekOfCode": "class Entregador(Usuário):\n    def __init__(self, nome, CPF, email, localizacao, appMain):\n        self.nome = nome\n        self.CPF = CPF\n        self.email = email\n        self.disponibilidade = True\n        self.localizacao = localizacao\n        self.entrega = None\n        self.appMain = appMain\n    def finalizar(self):",
         "detail": "Entregador",
+        "documentation": {}
+    },
+    {
+        "label": "teste",
+        "kind": 5,
+        "importPath": "Main",
+        "description": "Main",
+        "peekOfCode": "teste = App()\nteste.addSlot(\"www.teste.com\", None)\nteste.addEntregador(\"Bruno\", 1111, \"teste@gmail.com\", (1, 1))\nSonic = teste.addCliente(\"Sonic\", 1234, \"rapido@gmail.com\", \"Pix\")\nSonic.solicitarEntrega(1, (1,0), (0, 1), 1, 1, \"wwww.teste.com\")\nteste.linkUse(\"www.teste.com\", None)",
+        "detail": "Main",
+        "documentation": {}
+    },
+    {
+        "label": "Sonic",
+        "kind": 5,
+        "importPath": "Main",
+        "description": "Main",
+        "peekOfCode": "Sonic = teste.addCliente(\"Sonic\", 1234, \"rapido@gmail.com\", \"Pix\")\nSonic.solicitarEntrega(1, (1,0), (0, 1), 1, 1, \"wwww.teste.com\")\nteste.linkUse(\"www.teste.com\", None)",
+        "detail": "Main",
         "documentation": {}
     },
     {
@@ -88,7 +164,7 @@
         "kind": 6,
         "importPath": "Produto",
         "description": "Produto",
-        "peekOfCode": "class Produto:\n    def __init__(self):\n        self.ID = None",
+        "peekOfCode": "class Produto:\n    def __init__(self, ID):\n        self.ID = ID",
         "detail": "Produto",
         "documentation": {}
     },
@@ -106,7 +182,7 @@
         "kind": 6,
         "importPath": "Slot",
         "description": "Slot",
-        "peekOfCode": "class Slot:\n    def __init__(self):\n        self.link = None\n        self.disponibilidade = True\n        self.IDatual = None\n        self.trancado = False\n    def mudarTrancado(self):\n        if(self.trancado == False): self.trancado = True\n        else: self.trancado = False\n    def mudarID(self, ID):",
+        "peekOfCode": "class Slot:\n    def __init__(self, link, ID):\n        self.link = link\n        self.IDatual = ID\n        self.trancado = False\n    def mudarTrancado(self):\n        if(self.trancado == False): self.trancado = True\n        else: self.trancado = False\n    def mudarID(self, ID):\n        self.IDatual = ID",
         "detail": "Slot",
         "documentation": {}
     },

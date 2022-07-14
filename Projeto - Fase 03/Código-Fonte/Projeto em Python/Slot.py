@@ -2,10 +2,9 @@
 #-*- coding: utf-8 -*-
 
 class Slot:
-    def __init__(self):
-        self.link = None
-        self.disponibilidade = True
-        self.IDatual = None
+    def __init__(self, link, ID):
+        self.link = link
+        self.IDatual = ID
         self.trancado = False
 
     def mudarTrancado(self):
