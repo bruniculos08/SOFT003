@@ -1,0 +1,308 @@
+[
+    {
+        "label": "time",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "time",
+        "description": "time",
+        "detail": "time",
+        "documentation": {}
+    },
+    {
+        "label": "Cliente",
+        "importPath": "Cliente",
+        "description": "Cliente",
+        "isExtraImport": true,
+        "detail": "Cliente",
+        "documentation": {}
+    },
+    {
+        "label": "Cliente",
+        "importPath": "Cliente",
+        "description": "Cliente",
+        "isExtraImport": true,
+        "detail": "Cliente",
+        "documentation": {}
+    },
+    {
+        "label": "Cliente",
+        "importPath": "Cliente",
+        "description": "Cliente",
+        "isExtraImport": true,
+        "detail": "Cliente",
+        "documentation": {}
+    },
+    {
+        "label": "Entregador",
+        "importPath": "Entregador",
+        "description": "Entregador",
+        "isExtraImport": true,
+        "detail": "Entregador",
+        "documentation": {}
+    },
+    {
+        "label": "Entregador",
+        "importPath": "Entregador",
+        "description": "Entregador",
+        "isExtraImport": true,
+        "detail": "Entregador",
+        "documentation": {}
+    },
+    {
+        "label": "Entregador",
+        "importPath": "Entregador",
+        "description": "Entregador",
+        "isExtraImport": true,
+        "detail": "Entregador",
+        "documentation": {}
+    },
+    {
+        "label": "Usuário",
+        "importPath": "Usuário",
+        "description": "Usuário",
+        "isExtraImport": true,
+        "detail": "Usuário",
+        "documentation": {}
+    },
+    {
+        "label": "Usuário",
+        "importPath": "Usuário",
+        "description": "Usuário",
+        "isExtraImport": true,
+        "detail": "Usuário",
+        "documentation": {}
+    },
+    {
+        "label": "Entrega",
+        "importPath": "Entrega",
+        "description": "Entrega",
+        "isExtraImport": true,
+        "detail": "Entrega",
+        "documentation": {}
+    },
+    {
+        "label": "Entrega",
+        "importPath": "Entrega",
+        "description": "Entrega",
+        "isExtraImport": true,
+        "detail": "Entrega",
+        "documentation": {}
+    },
+    {
+        "label": "Slot",
+        "importPath": "Slot",
+        "description": "Slot",
+        "isExtraImport": true,
+        "detail": "Slot",
+        "documentation": {}
+    },
+    {
+        "label": "Slot",
+        "importPath": "Slot",
+        "description": "Slot",
+        "isExtraImport": true,
+        "detail": "Slot",
+        "documentation": {}
+    },
+    {
+        "label": "Slot",
+        "importPath": "Slot",
+        "description": "Slot",
+        "isExtraImport": true,
+        "detail": "Slot",
+        "documentation": {}
+    },
+    {
+        "label": "sqrt",
+        "importPath": "math",
+        "description": "math",
+        "isExtraImport": true,
+        "detail": "math",
+        "documentation": {}
+    },
+    {
+        "label": "Produto",
+        "importPath": "Produto",
+        "description": "Produto",
+        "isExtraImport": true,
+        "detail": "Produto",
+        "documentation": {}
+    },
+    {
+        "label": "random",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "random",
+        "description": "random",
+        "detail": "random",
+        "documentation": {}
+    },
+    {
+        "label": "App",
+        "importPath": "App",
+        "description": "App",
+        "isExtraImport": true,
+        "detail": "App",
+        "documentation": {}
+    },
+    {
+        "label": "App",
+        "importPath": "App",
+        "description": "App",
+        "isExtraImport": true,
+        "detail": "App",
+        "documentation": {}
+    },
+    {
+        "label": "unittest",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "unittest",
+        "description": "unittest",
+        "detail": "unittest",
+        "documentation": {}
+    },
+    {
+        "label": "Rota",
+        "importPath": "Rota",
+        "description": "Rota",
+        "isExtraImport": true,
+        "detail": "Rota",
+        "documentation": {}
+    },
+    {
+        "label": "App",
+        "kind": 6,
+        "importPath": "App",
+        "description": "App",
+        "peekOfCode": "class App:\n    def __init__(self):\n        self.listaDeClientes = []\n        self.listaDeEntregadores = []\n        self.listaDeSlots = []\n        self.listaDeEntregas = []\n        self.listaDeObjetosRemovidos = []\n    def addCliente(self, newCliente):\n        self.listaDeClientes.append(newCliente)\n    def addEntregador(self, newEntregador):",
+        "detail": "App",
+        "documentation": {}
+    },
+    {
+        "label": "Cliente",
+        "kind": 6,
+        "importPath": "Cliente",
+        "description": "Cliente",
+        "peekOfCode": "class Cliente(Usuário):\n    def __init__(self, nome, CPF, email, appMain, formaDePagamento):\n        super().__init__(nome, CPF, email, appMain)\n        self.formaDePagamento = formaDePagamento\n        self.appMain.addCliente(self)\n    # (1) O cliente coloca o produto em um slotDeOrigem (mas ele só tem como saber o link desse slot)...\n    # ... por isso a classe App deve ter um método para buscar tal slot.\n    # Após encontrar tal slot, a entrega é criada com slotDeOrigem e slotDeDestino:\n    def criarEntrega(self, link, destino):\n        slotDeOrigem = self.appMain.buscaSlot(link)",
+        "detail": "Cliente",
+        "documentation": {}
+    },
+    {
+        "label": "Entrega",
+        "kind": 6,
+        "importPath": "Entrega",
+        "description": "Entrega",
+        "peekOfCode": "class Entrega:\n    def __init__(self, slotDeOrigem, slotDeDestino, appMain):\n        self.statusFinal = False\n        self.valor = self.encontrarValor(slotDeOrigem, slotDeDestino)\n        self.slotDeOrigem = slotDeOrigem\n        self.slotDeDestino = slotDeDestino\n        self.foto = None\n        self.produto = self.criarProduto()\n        self.appMain = appMain\n        self.appMain.addEntrega(self)",
+        "detail": "Entrega",
+        "documentation": {}
+    },
+    {
+        "label": "Entregador",
+        "kind": 6,
+        "importPath": "Entregador",
+        "description": "Entregador",
+        "peekOfCode": "class Entregador(Usuário):\n    def __init__(self, nome, CPF, email, appMain):\n        super().__init__(nome, CPF, email, appMain)\n        self.disponibilidade = True\n        self.entregaAtual = None\n        self.appMain.addEntregador(self)\n    # (1) O entregador seleciona uma origem e um destino para o qual aceitará fazer entrega e...\n    # ... então o App seleciona uma entrega a ser feita:   \n    def aceitarEntrega(self, origem, destino):\n        slotDeOrigem = self.appMain.buscaSlot(origem)",
+        "detail": "Entregador",
+        "documentation": {}
+    },
+    {
+        "label": "teste",
+        "kind": 5,
+        "importPath": "Main",
+        "description": "Main",
+        "peekOfCode": "teste = App()\nArmario01 = Slot(\"www.armario01.com\", (1, 1), teste)\nArmario02 = Slot(\"www.armario02.com\", (2, 1), teste)\nBruno = Cliente(\"Bruno\", 1234, \"bruno@gmail.com\", teste, \"Pix\")\nSonic = Entregador(\"Sonic\", 12345, \"sonic@gmail.com\", teste)\nBruno.criarEntrega(\"www.armario01.com\", (2,1))\nSonic.aceitarEntrega((1,1), (2,1))\n#Sonic.abrirSlotDeOrigem()\n#Sonic.abrirSlotDeDestino()\nSonic.finalizar()",
+        "detail": "Main",
+        "documentation": {}
+    },
+    {
+        "label": "Armario01",
+        "kind": 5,
+        "importPath": "Main",
+        "description": "Main",
+        "peekOfCode": "Armario01 = Slot(\"www.armario01.com\", (1, 1), teste)\nArmario02 = Slot(\"www.armario02.com\", (2, 1), teste)\nBruno = Cliente(\"Bruno\", 1234, \"bruno@gmail.com\", teste, \"Pix\")\nSonic = Entregador(\"Sonic\", 12345, \"sonic@gmail.com\", teste)\nBruno.criarEntrega(\"www.armario01.com\", (2,1))\nSonic.aceitarEntrega((1,1), (2,1))\n#Sonic.abrirSlotDeOrigem()\n#Sonic.abrirSlotDeDestino()\nSonic.finalizar()\nSonic.tirarFoto(\"JPEG\")",
+        "detail": "Main",
+        "documentation": {}
+    },
+    {
+        "label": "Armario02",
+        "kind": 5,
+        "importPath": "Main",
+        "description": "Main",
+        "peekOfCode": "Armario02 = Slot(\"www.armario02.com\", (2, 1), teste)\nBruno = Cliente(\"Bruno\", 1234, \"bruno@gmail.com\", teste, \"Pix\")\nSonic = Entregador(\"Sonic\", 12345, \"sonic@gmail.com\", teste)\nBruno.criarEntrega(\"www.armario01.com\", (2,1))\nSonic.aceitarEntrega((1,1), (2,1))\n#Sonic.abrirSlotDeOrigem()\n#Sonic.abrirSlotDeDestino()\nSonic.finalizar()\nSonic.tirarFoto(\"JPEG\")\nSonic.finalizar()",
+        "detail": "Main",
+        "documentation": {}
+    },
+    {
+        "label": "Bruno",
+        "kind": 5,
+        "importPath": "Main",
+        "description": "Main",
+        "peekOfCode": "Bruno = Cliente(\"Bruno\", 1234, \"bruno@gmail.com\", teste, \"Pix\")\nSonic = Entregador(\"Sonic\", 12345, \"sonic@gmail.com\", teste)\nBruno.criarEntrega(\"www.armario01.com\", (2,1))\nSonic.aceitarEntrega((1,1), (2,1))\n#Sonic.abrirSlotDeOrigem()\n#Sonic.abrirSlotDeDestino()\nSonic.finalizar()\nSonic.tirarFoto(\"JPEG\")\nSonic.finalizar()\nSonic.aceitarEntrega((1,1), (2,1))",
+        "detail": "Main",
+        "documentation": {}
+    },
+    {
+        "label": "Sonic",
+        "kind": 5,
+        "importPath": "Main",
+        "description": "Main",
+        "peekOfCode": "Sonic = Entregador(\"Sonic\", 12345, \"sonic@gmail.com\", teste)\nBruno.criarEntrega(\"www.armario01.com\", (2,1))\nSonic.aceitarEntrega((1,1), (2,1))\n#Sonic.abrirSlotDeOrigem()\n#Sonic.abrirSlotDeDestino()\nSonic.finalizar()\nSonic.tirarFoto(\"JPEG\")\nSonic.finalizar()\nSonic.aceitarEntrega((1,1), (2,1))\nSonic = Sonic.alterarStatus()",
+        "detail": "Main",
+        "documentation": {}
+    },
+    {
+        "label": "Sonic",
+        "kind": 5,
+        "importPath": "Main",
+        "description": "Main",
+        "peekOfCode": "Sonic = Sonic.alterarStatus()\nprint(str(type(Sonic)))\nteste.removeUsuario(Sonic)\nprint(str(type(Sonic)))",
+        "detail": "Main",
+        "documentation": {}
+    },
+    {
+        "label": "Produto",
+        "kind": 6,
+        "importPath": "Produto",
+        "description": "Produto",
+        "peekOfCode": "class Produto:\n    def __init__(self, ID):\n        self.ID = ID",
+        "detail": "Produto",
+        "documentation": {}
+    },
+    {
+        "label": "Rota",
+        "kind": 6,
+        "importPath": "Rota",
+        "description": "Rota",
+        "peekOfCode": "class Rota:\n    def __init__(self, nome, listaDeCoordenadas):\n        self.nome = None\n        self.ListaDeCoordenadas = None",
+        "detail": "Rota",
+        "documentation": {}
+    },
+    {
+        "label": "Slot",
+        "kind": 6,
+        "importPath": "Slot",
+        "description": "Slot",
+        "peekOfCode": "class Slot:\n    def __init__(self, link, localizacao, appMain):\n        self.link = link\n        # self.disponibilidade = None       Obs.: este atributo é redundante\n        self.IDatual = None\n        self.trancado = False\n        self.localizacao = localizacao\n        self.appMain = appMain\n        self.appMain.addSlot(self)",
+        "detail": "Slot",
+        "documentation": {}
+    },
+    {
+        "label": "Teste_App",
+        "kind": 6,
+        "importPath": "teste_App",
+        "description": "teste_App",
+        "peekOfCode": "class Teste_App(unittest.TestCase):\n    def test_addCliente(self):\n        testeApp = App()\n        Bruno = Cliente(\"Bruno\", 1234, \"bruno@gmail.com\", testeApp, \"Pix\")\n        self.assertEqual(Bruno, testeApp.listaDeClientes[0])\n    def test_addEntregador(self):\n        testeApp = App()\n        Sonic = Entregador(\"Sonic\", 12345, \"sonic@gmail.com\", testeApp)\n        self.assertEqual(Sonic, testeApp.listaDeEntregadores[0])\n    def test_addSlot(self):",
+        "detail": "teste_App",
+        "documentation": {}
+    },
+    {
+        "label": "Usuário",
+        "kind": 6,
+        "importPath": "Usuário",
+        "description": "Usuário",
+        "peekOfCode": "class Usuário:\n    def __init__(self, nome, CPF, email, appMain):\n        self.nome = nome\n        self.CPF = CPF\n        self.email = email\n        self.listaDeRotas = []\n        self. appMain = appMain\n    def deletarUsuario(self):\n        del (self)\n    def criarRota(self, nomeDaRota, ListaDeCoordenadas):",
+        "detail": "Usuário",
+        "documentation": {}
+    }
+]

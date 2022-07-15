@@ -7,7 +7,7 @@ import random
 from Produto import Produto
 
 class Entrega:
-    def __init__(self, statusFinal, valor, origem, destino, foto, data, hora, slot):
+    def __init__(self, statusFinal, valor, origem, destino, foto, data, hora, slot, produto):
         self.statusFinal = statusFinal
         self.valor = valor
         self.origem = origem
@@ -16,11 +16,5 @@ class Entrega:
         self.data = data
         self.hora = hora
         self.slot = slot
-        self.produtoDaEntrega = self.criarProduto()
+        self.produto = produto
         self.slot.IDatual = self.produtoDaEntrega.ID
-
-    def criarProduto(self):
-        newProduct = Produto(random.randint(0, 1))
-        # (1) Para testar essa classe:
-        return newProduct
-
