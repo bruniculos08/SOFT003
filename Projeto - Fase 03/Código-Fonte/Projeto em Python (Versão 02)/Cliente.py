@@ -17,6 +17,7 @@ class Cliente(Usuário):
     def criarEntrega(self, link, destino):
         slotDeOrigem = self.appMain.buscaSlot(link)
         slotDeDestino = self.appMain.buscaSlot(destino)
+        if(slotDeDestino.trancado == True or slotDeOrigem.trancado == True): return None
         newEntrega = Entrega(slotDeOrigem, slotDeDestino, self.appMain)
         self.appMain.addEntrega(newEntrega)
         return self.appMain.listaDeEntregas[-1]
