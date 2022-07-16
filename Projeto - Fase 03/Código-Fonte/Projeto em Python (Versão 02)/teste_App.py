@@ -66,14 +66,14 @@ class Teste_App(unittest.TestCase):
         slot2 = Slot("www.armario02.com", (5,7), testeApp)
         slot3 = Slot("www.armario03.com", (5,4), testeApp)
         slot4 = Slot("www.armario04.com", (4,1), testeApp)
-        newEntrega = Bruno.criarEntrega("www.armario01.com", (5,4))
+        newEntregaID = Bruno.criarEntrega("www.armario01.com", (5,4))
         self.assertEqual(None, Sonic.entregaAtual)
         Sonic.aceitarEntrega((2,5), (5,4))
-        self.assertEqual(newEntrega, Sonic.entregaAtual)
+        self.assertEqual(newEntregaID, Sonic.entregaAtual.produto.ID)
         Sonic.tirarFoto("JPEG")
         Sonic.finalizar()
         Sonic.aceitarEntrega((2,5), (5,4))
-        self.assertNotEqual(newEntrega, Sonic.entregaAtual)
+        self.assertEqual(None, Sonic.entregaAtual)
         
 
     def test_finalizar(self):
@@ -90,7 +90,7 @@ class Teste_App(unittest.TestCase):
         entregaFinalizada = Sonic.entregaAtual
         self.assertTrue(entregaFinalizada.slotDeDestino.trancado)
         self.assertEqual(entregaFinalizada, testeApp.finalizar("teste.JPEG"))
-        self.assertFalse(entregaFinalizada.slotDeDestino.trancado)
+        self.assertTrue(entregaFinalizada.slotDeDestino.trancado)
 
 if __name__ == "__main__":
     unittest.main()

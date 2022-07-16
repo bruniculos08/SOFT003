@@ -96,7 +96,6 @@ class App:
         index = self.listaDeEntregas.index(entregaFinalizada)
         self.listaDeEntregas[index].slotDeOrigem.trancado = False
         self.listaDeEntregas[index].slotDeOrigem.IDatual = None
-        self.listaDeEntregas[index].slotDeDestino.IDatual = None
         self.listaDeEntregas[index].statusFinal = True
         # (10.1) return adicionado para fins de teste:
         return self.listaDeEntregas[index]

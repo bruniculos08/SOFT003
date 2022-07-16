@@ -20,15 +20,16 @@ class Cliente(Usuário):
         if(slotDeDestino.trancado == True or slotDeOrigem.trancado == True): return None
         else:
             newEntrega = Entrega(slotDeOrigem, slotDeDestino, self.appMain)
-        return self.appMain.listaDeEntregas[-1].produto.ID
+            return newEntrega.produto.ID
 
     # (2) O cliente retira o produto do slot se estiver no link do armário cujo produto atual dentro...
     # ... do mesmo corresponda ao ID enviado pelo usuário:
     def receberEntrega(self, link, ID):
         slotDeDestino = self.appMain.buscaSlot(link)
         if(slotDeDestino.IDatual == ID):
-            self.appMain.linkUse(slotDeDestino.link)
+            print("Armário de link " + slotDeDestino.link + " aberto para retirada.")
             slotDeDestino.trancado = False
+            slotDeDestino.IDatual = None
             return True
         else:
             print("ID errado ou produto não recebido.") 
