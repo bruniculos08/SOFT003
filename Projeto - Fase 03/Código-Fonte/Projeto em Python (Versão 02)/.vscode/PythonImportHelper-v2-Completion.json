@@ -41,6 +41,22 @@
         "documentation": {}
     },
     {
+        "label": "Cliente",
+        "importPath": "Cliente",
+        "description": "Cliente",
+        "isExtraImport": true,
+        "detail": "Cliente",
+        "documentation": {}
+    },
+    {
+        "label": "Entregador",
+        "importPath": "Entregador",
+        "description": "Entregador",
+        "isExtraImport": true,
+        "detail": "Entregador",
+        "documentation": {}
+    },
+    {
         "label": "Entregador",
         "importPath": "Entregador",
         "description": "Entregador",
@@ -110,6 +126,22 @@
         "description": "Entrega",
         "isExtraImport": true,
         "detail": "Entrega",
+        "documentation": {}
+    },
+    {
+        "label": "Entrega",
+        "importPath": "Entrega",
+        "description": "Entrega",
+        "isExtraImport": true,
+        "detail": "Entrega",
+        "documentation": {}
+    },
+    {
+        "label": "Slot",
+        "importPath": "Slot",
+        "description": "Slot",
+        "isExtraImport": true,
+        "detail": "Slot",
         "documentation": {}
     },
     {
@@ -167,6 +199,14 @@
         "importPath": "random",
         "description": "random",
         "detail": "random",
+        "documentation": {}
+    },
+    {
+        "label": "App",
+        "importPath": "App",
+        "description": "App",
+        "isExtraImport": true,
+        "detail": "App",
         "documentation": {}
     },
     {
@@ -343,6 +383,15 @@
         "description": "teste_Cliente",
         "peekOfCode": "class Teste_Cliente(unittest.TestCase):\n    def test_criarEntrega(self):\n        testeApp = App()\n        Bruno = Cliente(\"Bruno\", 1234, \"bruno@gmail.com\", testeApp, \"Pix\")\n        Sonic = Cliente(\"Sonic\", 12345, \"sonic@gmail.com\", testeApp, \"Débito\")\n        slot1 = Slot(\"www.armario01.com\", (2,5), testeApp)\n        slot2 = Slot(\"www.armario02.com\", (5,7), testeApp)\n        slot3 = Slot(\"www.armario03.com\", (5,4), testeApp)\n        slot4 = Slot(\"www.armario04.com\", (4,1), testeApp)\n        Sonic.criarEntrega((\"www.armario02.com\"), (5,4))",
         "detail": "teste_Cliente",
+        "documentation": {}
+    },
+    {
+        "label": "Teste_Cliente",
+        "kind": 6,
+        "importPath": "teste_Entregador",
+        "description": "teste_Entregador",
+        "peekOfCode": "class Teste_Cliente(unittest.TestCase):\n    def teste_aceitarEntrega(self):\n        testeApp = App()\n        Bruno = Cliente(\"Bruno\", 1234, \"bruno@gmail.com\", testeApp, \"Pix\")\n        Sonic = Entregador(\"Sonic\", 12345, \"sonic@gmail.com\", testeApp)\n        slot1 = Slot(\"www.armario01.com\", (2,5), testeApp)\n        slot2 = Slot(\"www.armario02.com\", (5,7), testeApp)\n        newEntregaID = Bruno.criarEntrega((\"www.armario01.com\"), (5,7))\n        Sonic.aceitarEntrega((2,5), (5,7))\n        self.assertNotEqual(None, Sonic.entregaAtual)",
+        "detail": "teste_Entregador",
         "documentation": {}
     },
     {

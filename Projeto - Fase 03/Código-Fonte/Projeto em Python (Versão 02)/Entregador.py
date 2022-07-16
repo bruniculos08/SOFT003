@@ -20,16 +20,18 @@ class Entregador(Usuário):
 
     # (2) O entregador pode abrir o slot de origem para buscar o produto, sem nenhuma restrição:
     def abrirSlotDeOrigem(self):
-        if(self.entregaAtual == None): return
+        if(self.entregaAtual == None): return False
         self.appMain.linkUse(self.entregaAtual.slotDeOrigem.link, self.entregaAtual.produto.ID)
+        return True
 
     # (3) Diferente de quando o se abre o slotDeOrigem, para evitar que o entregador tire a foto,...
     # ... abra o slotDeDestino novamente e furte o produto, deve-se apagar a foto anterior a abertura...
     # ... do slotDeDestino:
     def abrirSlotDeDestino(self):
-        if(self.entregaAtual == None): return
+        if(self.entregaAtual == None): return False
         self.entregaAtual.foto = None
         self.appMain.linkUse(self.entregaAtual.slotDeDestino.link, self.entregaAtual.produto.ID)
+        return True
 
     # (4) Tirar foto de entrega, para depois poder finalizar a entrega:
     def tirarFoto(self, foto):
