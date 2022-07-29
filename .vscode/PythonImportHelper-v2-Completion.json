@@ -8,19 +8,107 @@
         "documentation": {}
     },
     {
-        "label": "Usuário",
-        "importPath": "Usuário",
-        "description": "Usuário",
+        "label": "Entregador",
+        "importPath": "Entregador",
+        "description": "Entregador",
         "isExtraImport": true,
-        "detail": "Usuário",
+        "detail": "Entregador",
         "documentation": {}
     },
     {
-        "label": "Usuário",
-        "importPath": "Usuário",
-        "description": "Usuário",
+        "label": "Entregador",
+        "importPath": "Entregador",
+        "description": "Entregador",
         "isExtraImport": true,
-        "detail": "Usuário",
+        "detail": "Entregador",
+        "documentation": {}
+    },
+    {
+        "label": "Entregador",
+        "importPath": "Entregador",
+        "description": "Entregador",
+        "isExtraImport": true,
+        "detail": "Entregador",
+        "documentation": {}
+    },
+    {
+        "label": "Entregador",
+        "importPath": "Entregador",
+        "description": "Entregador",
+        "isExtraImport": true,
+        "detail": "Entregador",
+        "documentation": {}
+    },
+    {
+        "label": "Entregador",
+        "importPath": "Entregador",
+        "description": "Entregador",
+        "isExtraImport": true,
+        "detail": "Entregador",
+        "documentation": {}
+    },
+    {
+        "label": "Entregador",
+        "importPath": "Entregador",
+        "description": "Entregador",
+        "isExtraImport": true,
+        "detail": "Entregador",
+        "documentation": {}
+    },
+    {
+        "label": "Entregador",
+        "importPath": "Entregador",
+        "description": "Entregador",
+        "isExtraImport": true,
+        "detail": "Entregador",
+        "documentation": {}
+    },
+    {
+        "label": "Cliente",
+        "importPath": "Cliente",
+        "description": "Cliente",
+        "isExtraImport": true,
+        "detail": "Cliente",
+        "documentation": {}
+    },
+    {
+        "label": "Cliente",
+        "importPath": "Cliente",
+        "description": "Cliente",
+        "isExtraImport": true,
+        "detail": "Cliente",
+        "documentation": {}
+    },
+    {
+        "label": "Cliente",
+        "importPath": "Cliente",
+        "description": "Cliente",
+        "isExtraImport": true,
+        "detail": "Cliente",
+        "documentation": {}
+    },
+    {
+        "label": "Cliente",
+        "importPath": "Cliente",
+        "description": "Cliente",
+        "isExtraImport": true,
+        "detail": "Cliente",
+        "documentation": {}
+    },
+    {
+        "label": "Cliente",
+        "importPath": "Cliente",
+        "description": "Cliente",
+        "isExtraImport": true,
+        "detail": "Cliente",
+        "documentation": {}
+    },
+    {
+        "label": "Cliente",
+        "importPath": "Cliente",
+        "description": "Cliente",
+        "isExtraImport": true,
+        "detail": "Cliente",
         "documentation": {}
     },
     {
@@ -32,10 +120,140 @@
         "documentation": {}
     },
     {
-        "label": "*",
+        "label": "Entrega",
+        "importPath": "Entrega",
+        "description": "Entrega",
+        "isExtraImport": true,
+        "detail": "Entrega",
+        "documentation": {}
+    },
+    {
+        "label": "Entrega",
+        "importPath": "Entrega",
+        "description": "Entrega",
+        "isExtraImport": true,
+        "detail": "Entrega",
+        "documentation": {}
+    },
+    {
+        "label": "Entrega",
+        "importPath": "Entrega",
+        "description": "Entrega",
+        "isExtraImport": true,
+        "detail": "Entrega",
+        "documentation": {}
+    },
+    {
+        "label": "Entrega",
+        "importPath": "Entrega",
+        "description": "Entrega",
+        "isExtraImport": true,
+        "detail": "Entrega",
+        "documentation": {}
+    },
+    {
+        "label": "Entrega",
+        "importPath": "Entrega",
+        "description": "Entrega",
+        "isExtraImport": true,
+        "detail": "Entrega",
+        "documentation": {}
+    },
+    {
+        "label": "Slot",
+        "importPath": "Slot",
+        "description": "Slot",
+        "isExtraImport": true,
+        "detail": "Slot",
+        "documentation": {}
+    },
+    {
+        "label": "Slot",
+        "importPath": "Slot",
+        "description": "Slot",
+        "isExtraImport": true,
+        "detail": "Slot",
+        "documentation": {}
+    },
+    {
+        "label": "Slot",
+        "importPath": "Slot",
+        "description": "Slot",
+        "isExtraImport": true,
+        "detail": "Slot",
+        "documentation": {}
+    },
+    {
+        "label": "Slot",
+        "importPath": "Slot",
+        "description": "Slot",
+        "isExtraImport": true,
+        "detail": "Slot",
+        "documentation": {}
+    },
+    {
+        "label": "Slot",
+        "importPath": "Slot",
+        "description": "Slot",
+        "isExtraImport": true,
+        "detail": "Slot",
+        "documentation": {}
+    },
+    {
+        "label": "Slot",
+        "importPath": "Slot",
+        "description": "Slot",
+        "isExtraImport": true,
+        "detail": "Slot",
+        "documentation": {}
+    },
+    {
+        "label": "time",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "time",
+        "description": "time",
+        "detail": "time",
+        "documentation": {}
+    },
+    {
+        "label": "Usuário",
+        "importPath": "Usuário",
+        "description": "Usuário",
+        "isExtraImport": true,
+        "detail": "Usuário",
+        "documentation": {}
+    },
+    {
+        "label": "Usuário",
+        "importPath": "Usuário",
+        "description": "Usuário",
+        "isExtraImport": true,
+        "detail": "Usuário",
+        "documentation": {}
+    },
+    {
+        "label": "Usuário",
+        "importPath": "Usuário",
+        "description": "Usuário",
+        "isExtraImport": true,
+        "detail": "Usuário",
+        "documentation": {}
+    },
+    {
+        "label": "Usuário",
+        "importPath": "Usuário",
+        "description": "Usuário",
+        "isExtraImport": true,
+        "detail": "Usuário",
+        "documentation": {}
+    },
+    {
+        "label": "random",
+        "kind": 6,
+        "isExtraImport": true,
         "importPath": "random",
         "description": "random",
-        "isExtraImport": true,
         "detail": "random",
         "documentation": {}
     },
@@ -48,11 +266,84 @@
         "documentation": {}
     },
     {
+        "label": "Produto",
+        "importPath": "Produto",
+        "description": "Produto",
+        "isExtraImport": true,
+        "detail": "Produto",
+        "documentation": {}
+    },
+    {
+        "label": "App",
+        "importPath": "App",
+        "description": "App",
+        "isExtraImport": true,
+        "detail": "App",
+        "documentation": {}
+    },
+    {
+        "label": "App",
+        "importPath": "App",
+        "description": "App",
+        "isExtraImport": true,
+        "detail": "App",
+        "documentation": {}
+    },
+    {
+        "label": "App",
+        "importPath": "App",
+        "description": "App",
+        "isExtraImport": true,
+        "detail": "App",
+        "documentation": {}
+    },
+    {
+        "label": "App",
+        "importPath": "App",
+        "description": "App",
+        "isExtraImport": true,
+        "detail": "App",
+        "documentation": {}
+    },
+    {
+        "label": "App",
+        "importPath": "App",
+        "description": "App",
+        "isExtraImport": true,
+        "detail": "App",
+        "documentation": {}
+    },
+    {
         "label": "Rotas",
         "importPath": "Rotas",
         "description": "Rotas",
         "isExtraImport": true,
         "detail": "Rotas",
+        "documentation": {}
+    },
+    {
+        "label": "sqrt",
+        "importPath": "math",
+        "description": "math",
+        "isExtraImport": true,
+        "detail": "math",
+        "documentation": {}
+    },
+    {
+        "label": "unittest",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "unittest",
+        "description": "unittest",
+        "detail": "unittest",
+        "documentation": {}
+    },
+    {
+        "label": "Rota",
+        "importPath": "Rota",
+        "description": "Rota",
+        "isExtraImport": true,
+        "detail": "Rota",
         "documentation": {}
     },
     {
@@ -209,75 +500,255 @@
         "documentation": {}
     },
     {
-        "label": "Cliente",
+        "label": "App",
         "kind": 6,
-        "importPath": "Projeto - Fase 03.Código-Fonte.Projeto em Python.Cliente",
-        "description": "Projeto - Fase 03.Código-Fonte.Projeto em Python.Cliente",
-        "peekOfCode": "class Cliente(Usuário):\n    def __init__(self, formaDePagamento):\n        self.formaDePagamento = formaDePagamento\n    def criarEntrega(self, cordX, cordY):\n        newEntrega = Entrega(False, 0 , (cordX, cordY), 0)",
-        "detail": "Projeto - Fase 03.Código-Fonte.Projeto em Python.Cliente",
+        "importPath": "Projeto - Fase 03.Código-Fonte.Projeto em Python (Versão 01).App",
+        "description": "Projeto - Fase 03.Código-Fonte.Projeto em Python (Versão 01).App",
+        "peekOfCode": "class App:\n    def __init__(self):\n        self.listaDeEntregadores = []\n        self.listaDeClientes = []\n        self.listaDeUsuarios = []\n        self.listaDeEntregas = []\n        self.listaDeSlots = []\n    def addEntregador(self, nome, cpf, email, localizacao):\n        newEntregador = Entregador(nome, cpf, email, localizacao, self)\n        self.listaDeEntregadores.append(newEntregador)",
+        "detail": "Projeto - Fase 03.Código-Fonte.Projeto em Python (Versão 01).App",
         "documentation": {}
     },
     {
-        "label": "Control1",
+        "label": "Cliente",
         "kind": 6,
-        "importPath": "Projeto - Fase 03.Código-Fonte.Projeto em Python.Control1",
-        "description": "Projeto - Fase 03.Código-Fonte.Projeto em Python.Control1",
-        "peekOfCode": "class Control1:\n    pass",
-        "detail": "Projeto - Fase 03.Código-Fonte.Projeto em Python.Control1",
+        "importPath": "Projeto - Fase 03.Código-Fonte.Projeto em Python (Versão 01).Cliente",
+        "description": "Projeto - Fase 03.Código-Fonte.Projeto em Python (Versão 01).Cliente",
+        "peekOfCode": "class Cliente(Usuário):\n    def __init__(self, nome, CPF, email, formaDePagamento, appMain):\n        self.formaDePagamento = formaDePagamento\n        self.nome = nome\n        self.CPF = CPF\n        self.email = email\n        self.formaDePagamento = formaDePagamento\n        self.appMain = appMain\n    def solicitarEntrega(self, valor, origem, destino, data, hora, link):\n        self.appMain.solicita(valor, origem, destino, data, hora, link)",
+        "detail": "Projeto - Fase 03.Código-Fonte.Projeto em Python (Versão 01).Cliente",
         "documentation": {}
     },
     {
         "label": "Entrega",
         "kind": 6,
-        "importPath": "Projeto - Fase 03.Código-Fonte.Projeto em Python.Entrega",
-        "description": "Projeto - Fase 03.Código-Fonte.Projeto em Python.Entrega",
-        "peekOfCode": "class Entrega:\n    def __init__(self, statusFinal, valor, destino, foto):\n        self.statusFinal = statusFinal\n        self.valor = valor\n        self.destino = destino\n        self.foto = foto\n        self.produtoDaEntrega = self.criarProduto()\n    def criarProduto(self):\n        newProduct = Produto(random.randint(0, 1000000000000))\n        # (1) Para testar essa classe:",
-        "detail": "Projeto - Fase 03.Código-Fonte.Projeto em Python.Entrega",
+        "importPath": "Projeto - Fase 03.Código-Fonte.Projeto em Python (Versão 01).Entrega",
+        "description": "Projeto - Fase 03.Código-Fonte.Projeto em Python (Versão 01).Entrega",
+        "peekOfCode": "class Entrega:\n    def __init__(self, statusFinal, valor, origem, destino, foto, data, hora, slot, produto):\n        self.statusFinal = statusFinal\n        self.valor = valor\n        self.origem = origem\n        self.destino = destino\n        self.foto = foto\n        self.data = data\n        self.hora = hora\n        self.slot = slot",
+        "detail": "Projeto - Fase 03.Código-Fonte.Projeto em Python (Versão 01).Entrega",
         "documentation": {}
     },
     {
         "label": "Entregador",
         "kind": 6,
-        "importPath": "Projeto - Fase 03.Código-Fonte.Projeto em Python.Entregador",
-        "description": "Projeto - Fase 03.Código-Fonte.Projeto em Python.Entregador",
-        "peekOfCode": "class Entregador(Usuário):\n    def __init__(self, Entrega):\n        self.disponibilidade = True\n        self.entrega = Entrega\n    def finalizarEntrega(self):\n        self.entrega.statusFinal = True",
-        "detail": "Projeto - Fase 03.Código-Fonte.Projeto em Python.Entregador",
+        "importPath": "Projeto - Fase 03.Código-Fonte.Projeto em Python (Versão 01).Entregador",
+        "description": "Projeto - Fase 03.Código-Fonte.Projeto em Python (Versão 01).Entregador",
+        "peekOfCode": "class Entregador(Usuário):\n    def __init__(self, nome, CPF, email, localizacao, appMain):\n        self.nome = nome\n        self.CPF = CPF\n        self.email = email\n        self.disponibilidade = True\n        self.localizacao = localizacao\n        self.entrega = None\n        self.appMain = appMain\n    def aceitarEntrega(self, ListaDeEntregas, number):",
+        "detail": "Projeto - Fase 03.Código-Fonte.Projeto em Python (Versão 01).Entregador",
+        "documentation": {}
+    },
+    {
+        "label": "teste",
+        "kind": 5,
+        "importPath": "Projeto - Fase 03.Código-Fonte.Projeto em Python (Versão 01).Main",
+        "description": "Projeto - Fase 03.Código-Fonte.Projeto em Python (Versão 01).Main",
+        "peekOfCode": "teste = App()\nteste.addSlot(\"www.teste.com\", None)\nBruno = teste.addEntregador(\"Bruno\", 1111, \"teste@gmail.com\", (1, 1))\nSonic = teste.addCliente(\"Sonic\", 1234, \"rapido@gmail.com\", \"Pix\")\nSonic.solicitarEntrega(1, (1,0), (0, 1), 1, 1, \"wwww.teste.com\")\nteste.linkUse(\"www.teste.com\", None)\nBruno.tirarFoto(\"JPEG\")\nBruno.finalizar()\nSonic.solicitarEntrega(1, (1,0), (0, 1), 1, 1, \"wwww.teste.com\")",
+        "detail": "Projeto - Fase 03.Código-Fonte.Projeto em Python (Versão 01).Main",
+        "documentation": {}
+    },
+    {
+        "label": "Bruno",
+        "kind": 5,
+        "importPath": "Projeto - Fase 03.Código-Fonte.Projeto em Python (Versão 01).Main",
+        "description": "Projeto - Fase 03.Código-Fonte.Projeto em Python (Versão 01).Main",
+        "peekOfCode": "Bruno = teste.addEntregador(\"Bruno\", 1111, \"teste@gmail.com\", (1, 1))\nSonic = teste.addCliente(\"Sonic\", 1234, \"rapido@gmail.com\", \"Pix\")\nSonic.solicitarEntrega(1, (1,0), (0, 1), 1, 1, \"wwww.teste.com\")\nteste.linkUse(\"www.teste.com\", None)\nBruno.tirarFoto(\"JPEG\")\nBruno.finalizar()\nSonic.solicitarEntrega(1, (1,0), (0, 1), 1, 1, \"wwww.teste.com\")",
+        "detail": "Projeto - Fase 03.Código-Fonte.Projeto em Python (Versão 01).Main",
+        "documentation": {}
+    },
+    {
+        "label": "Sonic",
+        "kind": 5,
+        "importPath": "Projeto - Fase 03.Código-Fonte.Projeto em Python (Versão 01).Main",
+        "description": "Projeto - Fase 03.Código-Fonte.Projeto em Python (Versão 01).Main",
+        "peekOfCode": "Sonic = teste.addCliente(\"Sonic\", 1234, \"rapido@gmail.com\", \"Pix\")\nSonic.solicitarEntrega(1, (1,0), (0, 1), 1, 1, \"wwww.teste.com\")\nteste.linkUse(\"www.teste.com\", None)\nBruno.tirarFoto(\"JPEG\")\nBruno.finalizar()\nSonic.solicitarEntrega(1, (1,0), (0, 1), 1, 1, \"wwww.teste.com\")",
+        "detail": "Projeto - Fase 03.Código-Fonte.Projeto em Python (Versão 01).Main",
         "documentation": {}
     },
     {
         "label": "Produto",
         "kind": 6,
-        "importPath": "Projeto - Fase 03.Código-Fonte.Projeto em Python.Produto",
-        "description": "Projeto - Fase 03.Código-Fonte.Projeto em Python.Produto",
-        "peekOfCode": "class Produto:\n    def __init__(self):\n        self.ID = None",
-        "detail": "Projeto - Fase 03.Código-Fonte.Projeto em Python.Produto",
+        "importPath": "Projeto - Fase 03.Código-Fonte.Projeto em Python (Versão 01).Produto",
+        "description": "Projeto - Fase 03.Código-Fonte.Projeto em Python (Versão 01).Produto",
+        "peekOfCode": "class Produto:\n    def __init__(self, ID):\n        self.ID = ID",
+        "detail": "Projeto - Fase 03.Código-Fonte.Projeto em Python (Versão 01).Produto",
         "documentation": {}
     },
     {
         "label": "Rotas",
         "kind": 6,
-        "importPath": "Projeto - Fase 03.Código-Fonte.Projeto em Python.Rotas",
-        "description": "Projeto - Fase 03.Código-Fonte.Projeto em Python.Rotas",
+        "importPath": "Projeto - Fase 03.Código-Fonte.Projeto em Python (Versão 01).Rotas",
+        "description": "Projeto - Fase 03.Código-Fonte.Projeto em Python (Versão 01).Rotas",
         "peekOfCode": "class Rotas:\n    def __init__(self, listaDeCord):\n        self.nome = None\n        self.vetorDePontos = listaDeCord",
-        "detail": "Projeto - Fase 03.Código-Fonte.Projeto em Python.Rotas",
+        "detail": "Projeto - Fase 03.Código-Fonte.Projeto em Python (Versão 01).Rotas",
         "documentation": {}
     },
     {
         "label": "Slot",
         "kind": 6,
-        "importPath": "Projeto - Fase 03.Código-Fonte.Projeto em Python.Slot",
-        "description": "Projeto - Fase 03.Código-Fonte.Projeto em Python.Slot",
-        "peekOfCode": "class Slot:\n    def __init__(self):\n        self.link = None\n        self.disponibilidade = True\n        self.IDatual = None\n        self.trancado = False\n    def mudarTrancado(self):\n        if(self.trancado == False): self.trancado = True\n        else: self.trancado = False\n    def mudarID(self, ID):",
-        "detail": "Projeto - Fase 03.Código-Fonte.Projeto em Python.Slot",
+        "importPath": "Projeto - Fase 03.Código-Fonte.Projeto em Python (Versão 01).Slot",
+        "description": "Projeto - Fase 03.Código-Fonte.Projeto em Python (Versão 01).Slot",
+        "peekOfCode": "class Slot:\n    def __init__(self, link, ID):\n        self.link = link\n        self.IDatual = ID\n        self.trancado = False\n    def mudarTrancado(self):\n        if(self.trancado == False): self.trancado = True\n        else: self.trancado = False\n    def mudarID(self, ID):\n        self.IDatual = ID",
+        "detail": "Projeto - Fase 03.Código-Fonte.Projeto em Python (Versão 01).Slot",
         "documentation": {}
     },
     {
         "label": "Usuário",
         "kind": 6,
-        "importPath": "Projeto - Fase 03.Código-Fonte.Projeto em Python.Usuário",
-        "description": "Projeto - Fase 03.Código-Fonte.Projeto em Python.Usuário",
+        "importPath": "Projeto - Fase 03.Código-Fonte.Projeto em Python (Versão 01).Usuário",
+        "description": "Projeto - Fase 03.Código-Fonte.Projeto em Python (Versão 01).Usuário",
         "peekOfCode": "class Usuário:\n    def __init__(self):\n        self.nome = None\n        self.CPF = None\n        self.email = None\n        self.listaDeRotas = []\n    def deletarUsuario(self):\n        del (self)\n    def criarRota(self):\n        newRota = Rotas()",
-        "detail": "Projeto - Fase 03.Código-Fonte.Projeto em Python.Usuário",
+        "detail": "Projeto - Fase 03.Código-Fonte.Projeto em Python (Versão 01).Usuário",
+        "documentation": {}
+    },
+    {
+        "label": "App",
+        "kind": 6,
+        "importPath": "Projeto - Fase 03.Código-Fonte.Projeto em Python (Versão 02).App",
+        "description": "Projeto - Fase 03.Código-Fonte.Projeto em Python (Versão 02).App",
+        "peekOfCode": "class App:\n    def __init__(self):\n        self.listaDeClientes = []\n        self.listaDeEntregadores = []\n        self.listaDeSlots = []\n        self.listaDeEntregas = []\n        self.listaDeObjetosRemovidos = []\n    def addCliente(self, newCliente):\n        self.listaDeClientes.append(newCliente)\n    def addEntregador(self, newEntregador):",
+        "detail": "Projeto - Fase 03.Código-Fonte.Projeto em Python (Versão 02).App",
+        "documentation": {}
+    },
+    {
+        "label": "Cliente",
+        "kind": 6,
+        "importPath": "Projeto - Fase 03.Código-Fonte.Projeto em Python (Versão 02).Cliente",
+        "description": "Projeto - Fase 03.Código-Fonte.Projeto em Python (Versão 02).Cliente",
+        "peekOfCode": "class Cliente(Usuário):\n    def __init__(self, nome, CPF, email, appMain, formaDePagamento):\n        super().__init__(nome, CPF, email, appMain)\n        self.formaDePagamento = formaDePagamento\n        self.appMain.addCliente(self)\n    # (1) O cliente coloca o produto em um slotDeOrigem (mas ele só tem como saber o link desse slot)...\n    # ... por isso a classe App deve ter um método para buscar tal slot.\n    # Após encontrar tal slot, a entrega é criada com slotDeOrigem e slotDeDestino:\n    def criarEntrega(self, link, destino):\n        slotDeOrigem = self.appMain.buscaSlot(link)",
+        "detail": "Projeto - Fase 03.Código-Fonte.Projeto em Python (Versão 02).Cliente",
+        "documentation": {}
+    },
+    {
+        "label": "Entrega",
+        "kind": 6,
+        "importPath": "Projeto - Fase 03.Código-Fonte.Projeto em Python (Versão 02).Entrega",
+        "description": "Projeto - Fase 03.Código-Fonte.Projeto em Python (Versão 02).Entrega",
+        "peekOfCode": "class Entrega:\n    def __init__(self, slotDeOrigem, slotDeDestino, appMain):\n        self.statusFinal = False\n        self.valor = self.encontrarValor(slotDeOrigem, slotDeDestino)\n        self.slotDeOrigem = slotDeOrigem\n        self.slotDeDestino = slotDeDestino\n        self.foto = None\n        self.produto = self.criarProduto()\n        self.appMain = appMain\n        self.appMain.addEntrega(self)",
+        "detail": "Projeto - Fase 03.Código-Fonte.Projeto em Python (Versão 02).Entrega",
+        "documentation": {}
+    },
+    {
+        "label": "Entregador",
+        "kind": 6,
+        "importPath": "Projeto - Fase 03.Código-Fonte.Projeto em Python (Versão 02).Entregador",
+        "description": "Projeto - Fase 03.Código-Fonte.Projeto em Python (Versão 02).Entregador",
+        "peekOfCode": "class Entregador(Usuário):\n    def __init__(self, nome, CPF, email, appMain):\n        super().__init__(nome, CPF, email, appMain)\n        self.disponibilidade = True\n        self.entregaAtual = None\n        self.appMain.addEntregador(self)\n    # (1) O entregador seleciona uma origem e um destino para o qual aceitará fazer entrega e...\n    # ... então o App seleciona uma entrega a ser feita:   \n    def aceitarEntrega(self, origem, destino):\n        slotDeOrigem = self.appMain.buscaSlot(origem)",
+        "detail": "Projeto - Fase 03.Código-Fonte.Projeto em Python (Versão 02).Entregador",
+        "documentation": {}
+    },
+    {
+        "label": "teste",
+        "kind": 5,
+        "importPath": "Projeto - Fase 03.Código-Fonte.Projeto em Python (Versão 02).Main",
+        "description": "Projeto - Fase 03.Código-Fonte.Projeto em Python (Versão 02).Main",
+        "peekOfCode": "teste = App()\nArmario01 = Slot(\"www.armario01.com\", (1, 1), teste)\nArmario02 = Slot(\"www.armario02.com\", (2, 1), teste)\nBruno = Cliente(\"Bruno\", 1234, \"bruno@gmail.com\", teste, \"Pix\")\nSonic = Entregador(\"Sonic\", 12345, \"sonic@gmail.com\", teste)\nBruno.criarEntrega(\"www.armario01.com\", (2,1))\nSonic.aceitarEntrega((1,1), (2,1))\n#Sonic.abrirSlotDeOrigem()\n#Sonic.abrirSlotDeDestino()\nSonic.finalizar()",
+        "detail": "Projeto - Fase 03.Código-Fonte.Projeto em Python (Versão 02).Main",
+        "documentation": {}
+    },
+    {
+        "label": "Armario01",
+        "kind": 5,
+        "importPath": "Projeto - Fase 03.Código-Fonte.Projeto em Python (Versão 02).Main",
+        "description": "Projeto - Fase 03.Código-Fonte.Projeto em Python (Versão 02).Main",
+        "peekOfCode": "Armario01 = Slot(\"www.armario01.com\", (1, 1), teste)\nArmario02 = Slot(\"www.armario02.com\", (2, 1), teste)\nBruno = Cliente(\"Bruno\", 1234, \"bruno@gmail.com\", teste, \"Pix\")\nSonic = Entregador(\"Sonic\", 12345, \"sonic@gmail.com\", teste)\nBruno.criarEntrega(\"www.armario01.com\", (2,1))\nSonic.aceitarEntrega((1,1), (2,1))\n#Sonic.abrirSlotDeOrigem()\n#Sonic.abrirSlotDeDestino()\nSonic.finalizar()\nSonic.tirarFoto(\"JPEG\")",
+        "detail": "Projeto - Fase 03.Código-Fonte.Projeto em Python (Versão 02).Main",
+        "documentation": {}
+    },
+    {
+        "label": "Armario02",
+        "kind": 5,
+        "importPath": "Projeto - Fase 03.Código-Fonte.Projeto em Python (Versão 02).Main",
+        "description": "Projeto - Fase 03.Código-Fonte.Projeto em Python (Versão 02).Main",
+        "peekOfCode": "Armario02 = Slot(\"www.armario02.com\", (2, 1), teste)\nBruno = Cliente(\"Bruno\", 1234, \"bruno@gmail.com\", teste, \"Pix\")\nSonic = Entregador(\"Sonic\", 12345, \"sonic@gmail.com\", teste)\nBruno.criarEntrega(\"www.armario01.com\", (2,1))\nSonic.aceitarEntrega((1,1), (2,1))\n#Sonic.abrirSlotDeOrigem()\n#Sonic.abrirSlotDeDestino()\nSonic.finalizar()\nSonic.tirarFoto(\"JPEG\")\nSonic.finalizar()",
+        "detail": "Projeto - Fase 03.Código-Fonte.Projeto em Python (Versão 02).Main",
+        "documentation": {}
+    },
+    {
+        "label": "Bruno",
+        "kind": 5,
+        "importPath": "Projeto - Fase 03.Código-Fonte.Projeto em Python (Versão 02).Main",
+        "description": "Projeto - Fase 03.Código-Fonte.Projeto em Python (Versão 02).Main",
+        "peekOfCode": "Bruno = Cliente(\"Bruno\", 1234, \"bruno@gmail.com\", teste, \"Pix\")\nSonic = Entregador(\"Sonic\", 12345, \"sonic@gmail.com\", teste)\nBruno.criarEntrega(\"www.armario01.com\", (2,1))\nSonic.aceitarEntrega((1,1), (2,1))\n#Sonic.abrirSlotDeOrigem()\n#Sonic.abrirSlotDeDestino()\nSonic.finalizar()\nSonic.tirarFoto(\"JPEG\")\nSonic.finalizar()\nSonic.aceitarEntrega((1,1), (2,1))",
+        "detail": "Projeto - Fase 03.Código-Fonte.Projeto em Python (Versão 02).Main",
+        "documentation": {}
+    },
+    {
+        "label": "Sonic",
+        "kind": 5,
+        "importPath": "Projeto - Fase 03.Código-Fonte.Projeto em Python (Versão 02).Main",
+        "description": "Projeto - Fase 03.Código-Fonte.Projeto em Python (Versão 02).Main",
+        "peekOfCode": "Sonic = Entregador(\"Sonic\", 12345, \"sonic@gmail.com\", teste)\nBruno.criarEntrega(\"www.armario01.com\", (2,1))\nSonic.aceitarEntrega((1,1), (2,1))\n#Sonic.abrirSlotDeOrigem()\n#Sonic.abrirSlotDeDestino()\nSonic.finalizar()\nSonic.tirarFoto(\"JPEG\")\nSonic.finalizar()\nSonic.aceitarEntrega((1,1), (2,1))\nSonic = Sonic.alterarStatus()",
+        "detail": "Projeto - Fase 03.Código-Fonte.Projeto em Python (Versão 02).Main",
+        "documentation": {}
+    },
+    {
+        "label": "Sonic",
+        "kind": 5,
+        "importPath": "Projeto - Fase 03.Código-Fonte.Projeto em Python (Versão 02).Main",
+        "description": "Projeto - Fase 03.Código-Fonte.Projeto em Python (Versão 02).Main",
+        "peekOfCode": "Sonic = Sonic.alterarStatus()\nprint(str(type(Sonic)))\nteste.removeUsuario(Sonic)\nprint(str(type(Sonic)))",
+        "detail": "Projeto - Fase 03.Código-Fonte.Projeto em Python (Versão 02).Main",
+        "documentation": {}
+    },
+    {
+        "label": "Produto",
+        "kind": 6,
+        "importPath": "Projeto - Fase 03.Código-Fonte.Projeto em Python (Versão 02).Produto",
+        "description": "Projeto - Fase 03.Código-Fonte.Projeto em Python (Versão 02).Produto",
+        "peekOfCode": "class Produto:\n    def __init__(self, ID):\n        self.ID = ID",
+        "detail": "Projeto - Fase 03.Código-Fonte.Projeto em Python (Versão 02).Produto",
+        "documentation": {}
+    },
+    {
+        "label": "Rota",
+        "kind": 6,
+        "importPath": "Projeto - Fase 03.Código-Fonte.Projeto em Python (Versão 02).Rota",
+        "description": "Projeto - Fase 03.Código-Fonte.Projeto em Python (Versão 02).Rota",
+        "peekOfCode": "class Rota:\n    def __init__(self, nome, listaDeCoordenadas):\n        self.nome = None\n        self.ListaDeCoordenadas = None",
+        "detail": "Projeto - Fase 03.Código-Fonte.Projeto em Python (Versão 02).Rota",
+        "documentation": {}
+    },
+    {
+        "label": "Slot",
+        "kind": 6,
+        "importPath": "Projeto - Fase 03.Código-Fonte.Projeto em Python (Versão 02).Slot",
+        "description": "Projeto - Fase 03.Código-Fonte.Projeto em Python (Versão 02).Slot",
+        "peekOfCode": "class Slot:\n    def __init__(self, link, localizacao, appMain):\n        self.link = link\n        # self.disponibilidade = None       Obs.: este atributo é redundante\n        self.IDatual = None\n        self.trancado = False\n        self.localizacao = localizacao\n        self.appMain = appMain\n        self.appMain.addSlot(self)",
+        "detail": "Projeto - Fase 03.Código-Fonte.Projeto em Python (Versão 02).Slot",
+        "documentation": {}
+    },
+    {
+        "label": "Teste_App",
+        "kind": 6,
+        "importPath": "Projeto - Fase 03.Código-Fonte.Projeto em Python (Versão 02).teste_App",
+        "description": "Projeto - Fase 03.Código-Fonte.Projeto em Python (Versão 02).teste_App",
+        "peekOfCode": "class Teste_App(unittest.TestCase):\n    def test_addCliente(self):\n        testeApp = App()\n        Bruno = Cliente(\"Bruno\", 1234, \"bruno@gmail.com\", testeApp, \"Pix\")\n        self.assertEqual(Bruno, testeApp.listaDeClientes[0])\n    def test_addEntregador(self):\n        testeApp = App()\n        Sonic = Entregador(\"Sonic\", 12345, \"sonic@gmail.com\", testeApp)\n        self.assertEqual(Sonic, testeApp.listaDeEntregadores[0])\n    def test_addSlot(self):",
+        "detail": "Projeto - Fase 03.Código-Fonte.Projeto em Python (Versão 02).teste_App",
+        "documentation": {}
+    },
+    {
+        "label": "Teste_Cliente",
+        "kind": 6,
+        "importPath": "Projeto - Fase 03.Código-Fonte.Projeto em Python (Versão 02).teste_Cliente",
+        "description": "Projeto - Fase 03.Código-Fonte.Projeto em Python (Versão 02).teste_Cliente",
+        "peekOfCode": "class Teste_Cliente(unittest.TestCase):\n    def test_criarEntrega(self):\n        testeApp = App()\n        Bruno = Cliente(\"Bruno\", 1234, \"bruno@gmail.com\", testeApp, \"Pix\")\n        Sonic = Cliente(\"Sonic\", 12345, \"sonic@gmail.com\", testeApp, \"Débito\")\n        slot1 = Slot(\"www.armario01.com\", (2,5), testeApp)\n        slot2 = Slot(\"www.armario02.com\", (5,7), testeApp)\n        slot3 = Slot(\"www.armario03.com\", (5,4), testeApp)\n        slot4 = Slot(\"www.armario04.com\", (4,1), testeApp)\n        Sonic.criarEntrega((\"www.armario02.com\"), (5,4))",
+        "detail": "Projeto - Fase 03.Código-Fonte.Projeto em Python (Versão 02).teste_Cliente",
+        "documentation": {}
+    },
+    {
+        "label": "Teste_Cliente",
+        "kind": 6,
+        "importPath": "Projeto - Fase 03.Código-Fonte.Projeto em Python (Versão 02).teste_Entregador",
+        "description": "Projeto - Fase 03.Código-Fonte.Projeto em Python (Versão 02).teste_Entregador",
+        "peekOfCode": "class Teste_Cliente(unittest.TestCase):\n    def teste_aceitarEntrega(self):\n        testeApp = App()\n        Bruno = Cliente(\"Bruno\", 1234, \"bruno@gmail.com\", testeApp, \"Pix\")\n        Sonic = Entregador(\"Sonic\", 12345, \"sonic@gmail.com\", testeApp)\n        slot1 = Slot(\"www.armario01.com\", (2,5), testeApp)\n        slot2 = Slot(\"www.armario02.com\", (5,7), testeApp)\n        newEntregaID = Bruno.criarEntrega((\"www.armario01.com\"), (5,7))\n        Sonic.aceitarEntrega((2,5), (5,7))\n        self.assertNotEqual(None, Sonic.entregaAtual)",
+        "detail": "Projeto - Fase 03.Código-Fonte.Projeto em Python (Versão 02).teste_Entregador",
+        "documentation": {}
+    },
+    {
+        "label": "Usuário",
+        "kind": 6,
+        "importPath": "Projeto - Fase 03.Código-Fonte.Projeto em Python (Versão 02).Usuário",
+        "description": "Projeto - Fase 03.Código-Fonte.Projeto em Python (Versão 02).Usuário",
+        "peekOfCode": "class Usuário:\n    def __init__(self, nome, CPF, email, appMain):\n        self.nome = nome\n        self.CPF = CPF\n        self.email = email\n        self.listaDeRotas = []\n        self. appMain = appMain\n    def deletarUsuario(self):\n        del (self)\n    def criarRota(self, nomeDaRota, ListaDeCoordenadas):",
+        "detail": "Projeto - Fase 03.Código-Fonte.Projeto em Python (Versão 02).Usuário",
         "documentation": {}
     }
 ]
